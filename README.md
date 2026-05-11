@@ -40,5 +40,13 @@ This part houses the main bearings and attaches to the frame.
 
 ## Manufacturing 
 
+## User Guide 
+
+### Use Instructuion 
+
+### Maintenance Guide 
+
+### Troubleshoting Guide 
+
 ## Testing 
 
