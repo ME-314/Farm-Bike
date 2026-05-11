@@ -1,5 +1,6 @@
 # Farm-Bike
 ## Preamble
+**PHOTOS OF PARTS AND PROCESSES TO BE ADDED**
 A simultaneous engineering project at EPFL under the *Durabilité* unit, which aims to create a modular power source for various farm machinery utilizing human work as the source of power. The developement of this machines was the subject of a simultaneous engineering project (course code: ME-314) and is the work of a whole semester. The project describes every step from design to machining and testing. 
 **ADD CONCLUSION ON FINAL RESULT** 
 The following README contains that may overlap with other documentation contained in the repository but is not a replacement for those documents.  
@@ -34,10 +35,11 @@ The bottom bracket shell atteches the standard BSA bicycle bottom bracket to the
 #### Hub
 The hub forms a central part of the transmission of the machine, it the mounts the cassette and the pulley thus trasmited all of the power generated. A flywheel is also mounted on the axle to smooth out the power delivery.  
 ##### Pillow Block
-This part houses the main bearings and attaches to the frame.
+This part houses the main bearings and attaches to the frame. It is a crucial parts that maintains the alignment between that two bearing and ensures their long life and smooth operation, for this reason it is machined out of a 6061 Aluminium billet. Due to invailablity of approperiate stock the pillow block has been split into two pieces and pinned together. It features clearance holes for two M8 mounting bolts, a central bore for the axle to pass through and two counterbores for the 6005-2Z bearings. These deep groove ball bearings have been selected to ensure a long life span as well being easy to source. Low profile ball bearing often found in bicycles have specificaly been discared as their lower profile makes them more prone to premature faileure. A recess has been added at the mounting between the pillow block and the aluminum profile to prevent twisting during usage.  
 ##### Axle
+The large bearings allow us to use an aluminum axle without risking the keyway becoming fragile. The axle features 25 mm bearing seats and a key way to transmit torque to the flywheel and pulley. In order to mount the cassette onto the axle while avoiding complex machining operations a donor freehub body was bonded onto the axle. The axle was of course designed around the specific freehub body availble thus the design would need to be modifed in accordance with available parts. 
 #### Derailleur Hanger
-
+To emulate the derailleur mounting of a conventio
 ## Manufacturing 
 
 ## User Guide 
