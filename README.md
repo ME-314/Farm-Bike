@@ -17,6 +17,25 @@ The following README contains that may overlap with other documentation containe
 - Use of quailty components to ensure a long life cycle  
 - Easy maintenance procedures
 ## Design 
+The design of the machine was driven by the specification outlined above and the will to ensure the project can be replicated or further developped in the future. 
+### Frame
+The frame is made out of Item modular aluminum extrusions, specificaly the profile 8 series. This made the construction of the frame simple and required only of the shelf parts. The Item profile 8 can be substitued by any equivalent 40 mm * 40 mm T-slot aluminium extrusion. The choice of aluminium extrusion was made to ensure avaiblilty of materials in any geographical region as well as ensure repairabilty, the ease of manufacture was of course a welcome bonus.
+### Drivetrain
+A transmission based on bicycle components is the optimal of the self solution to our problem. It offers robustness, ease of maintenance and worldwide availabilty at a low cost. The following components in the system required no modification from their retail conficuration: 
+- Cassette 
+- Derailleur & Shifter
+- Handlebars & Stem
+- Crankset & Bottom Bracket
+- Seatpost & Saddle 
+The subsequent paragraph describe the design of each of the machine specific parts. The parts were designed to conform with bicycle industry standards such that commisioning and maintenence could be carried out by anyone familiar with common bicycles.
+#### Bottom Bracket Shell
+The bottom bracket shell atteches the standard BSA bicycle bottom bracket to the frame. The part is a weldment of a round bottom bracket shell recovered from a donor frame and a 40 mm * 30 mm rectangular steel tube. The part requires far less material resouces then an equivalent machined from a billet and does not require specialty tooling to cut the BSA thread. 
+#### Hub
+The hub forms a central part of the transmission of the machine, it the mounts the cassette and the pulley thus trasmited all of the power generated. A flywheel is also mounted on the axle to smooth out the power delivery.  
+##### Pillow Block
+This part houses the main bearings and attaches to the frame.
+##### Axle
+#### Derailleur Hanger
 
 ## Manufacturing 
 
