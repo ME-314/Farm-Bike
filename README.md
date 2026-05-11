@@ -27,6 +27,7 @@ A transmission based on bicycle components is the optimal of the self solution t
 - Handlebars & Stem
 - Crankset & Bottom Bracket
 - Seatpost & Saddle 
+
 The subsequent paragraph describe the design of each of the machine specific parts. The parts were designed to conform with bicycle industry standards such that commisioning and maintenence could be carried out by anyone familiar with common bicycles.
 #### Bottom Bracket Shell
 The bottom bracket shell atteches the standard BSA bicycle bottom bracket to the frame. The part is a weldment of a round bottom bracket shell recovered from a donor frame and a 40 mm * 30 mm rectangular steel tube. The part requires far less material resouces then an equivalent machined from a billet and does not require specialty tooling to cut the BSA thread. 
