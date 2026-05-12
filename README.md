@@ -43,6 +43,9 @@ The large bearings allow us to use an aluminum axle without risking the keyway b
 To emulate the derailleur mounting of a conventio
 ## Manufacturing 
 
+### Hub
+[![Watch the video](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)
+
 ## User Guide 
 
 ### Use Instructuion 
