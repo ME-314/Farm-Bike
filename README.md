@@ -19,7 +19,7 @@ The following README contains that may overlap with other documentation containe
 - Use of quailty components to ensure a long life cycle  
 - Easy maintenance procedures
 ## Design 
-The design of the machine was driven by the specification outlined above and the will to ensure the project can be replicated or further developped in the future. 
+The design of the machine was driven by the specification outlined above and the will to ensure the project can be replicated or further developped in the future. The design choices are driven by the will to create a machine that has a long service life, quality parts and material were chosen over low-cost alteratives.
 ### Frame
 The frame is made out of Item modular aluminum extrusions, specificaly the profile 8 series. This made the construction of the frame simple and required only of the shelf parts. The Item profile 8 can be substitued by any equivalent 40 mm * 40 mm T-slot aluminium extrusion. The choice of aluminium extrusion was made to ensure avaiblilty of materials in any geographical region as well as ensure repairabilty, the ease of manufacture was of course a welcome bonus.
 ### Drivetrain
@@ -40,10 +40,11 @@ This part houses the main bearings and attaches to the frame. It is a crucial pa
 ##### Axle
 The large bearings allow us to use an aluminum axle without risking the keyway becoming fragile. The axle features 25 mm bearing seats and a key way to transmit torque to the flywheel and pulley. In order to mount the cassette onto the axle while avoiding complex machining operations a donor freehub body was bonded onto the axle. The axle was of course designed around the specific freehub body availble thus the design would need to be modifed in accordance with available parts. 
 #### Derailleur Hanger
-To emulate the derailleur mounting of a conventional bicycle without having to cut a fine pitch thread a deraileur hanger from a donor frame was utilized. In order to correctly position it with respect to the axle and cassette a mount was designed out of 3mm aluminium sheet. The mount exploits the advantages of bent sheet metal to acheive a robust yet lightweight solution. 
+To emulate the derailleur mounting of a conventional bicycle without having to cut a fine pitch thread a deraileur hanger from a donor frame was utilized. In order to correctly position it with respect to the axle and cassette a mount was designed out of 3mm 5005 aluminium sheet. The mount exploits the advantages of bent sheet metal to acheive a robust yet lightweight solution. 
 ## Manufacturing 
 This section outlines the manufacting processes of each of the parts and provides photos of the components. It assumes the read is comfortable with conventrial machining processes and general fabrication and thus omits the details of most trival operations. Some parts in the assembly are overlooked in this section as their manufacturing features no operations of intrest. 
 ### Bottom Bracket Shell 
+This is the only weldement on the machine, consisting of two parts with thin sections. The donor frame was chose for its steel construction and BSA threaded bottom bracket. The shell was cut out and turned down to a constant diameter. During the turning operations a close fitting alumium plug was used on the inside of the threads to provide tailstock support. The hole for the shell in the rectangular tubing was roughed out with a hole saw on a mill and fitted by hand with a file. The two parts were subsequently TIG welded and the thread was chased. TIG welding was used because of the thin matarial and in order to preserve as much of the BSA thread inside the shell.     
 <table>
   <tr>
     <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell0.jpg" width="350"></td>
@@ -54,15 +55,83 @@ This section outlines the manufacting processes of each of the parts and provide
     <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell3.jpg" width="350"></td>
   </tr>
 </table>
+After welding, the oxides were removed and the part was finished with automotive anti-rust primer. 
 
 ### Axle
-
+The machining operations did not deviate from standard practice. Loctite 603 retaining compound was used to chemicaly bond the freehub body to the axle. Chemical bonding was chosen to remove the need for pressing in the axle thus elimingating the risk of fracture on the hardened freehud body. 
 ### Pillow Block
+Due to limitations in the available stock material the pillow block was machined from two separate pieces of stock. 
 [![Watch the video](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)
 
+The operations were carried out in the following order: 
+- Squaring the stock to size 
+- Drilling and reaming of the 4mm pin bores
+- Centre drilling of the main bore
+- Two parts are pressed together 
+- Milling locating slot 
+- Drilling of two M8 clearance holes
+- Boring half of the through bore in a lathe with centre drill hole as reference
+- Boring of bearing seat
+- Part flipped an boring operations repeated
+- Deburring and chamfering 
+
+<table>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlock0.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlock1.jpg" width="350"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlock2.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlock3.jpg" width="350"></td>
+  </tr>
+</table>
+Following machining, deburring and finishing was carried out and the bearings were fitted
+
+
+### Fly Wheel
+In order to avoid procuring costly stock material the fly wheel is cut out of 5 mm S235 structural steel and the pieces are pinned together. The use of a fibre laser allows for significant time saving but all of the parts can be machined using conventional process. The parts were pressed together with an arbor press and a coat of anti-rust primer protects against corrosion.
+<table>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/FlyWheel0.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/FlyWheel1.jpg" width="350"></td>
+  </tr>
+</table>
+
+### Hub 
+Precaution taken during assebly of the hub:
+- Parts cleaned and lubricated 
+- Light preload applied to the bearings 
+- Taper lock pulley and bushing torqued to manufacturer specification
+
+<table>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/HubAssy1.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/HubAssy2.jpg" width="350"></td>
+  </tr>
+</table> 
+
 ### Derailleur Mount
+Just like the fly wheel the derailleur mount was cut with the use of a fibre laser. Due to its non trivial geometry the sheet metal part was bent in a bench vice with the help of parellel jaw pliers. The existing derailleur hanger was hand fitted during the finishing process. As most of the parts geometries are non mating surfaces the part could be replicated with hand tools. The geometry cam be modified to suit the manufacturing methods available.
+<table>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/DerailleurMount0.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/DerailleurMount1.jpg" width="350"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/DerailleurMount2.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/DerailleurMount3.jpg" width="350"></td>
+  </tr>
+</table> 
 
-
+## Procurement Guide 
+Normalized industrial parts for this project can be commonly bought new from well established suppliers. The parts for the prototype were sourced from Norelem, but equivalent parts can be source from: 
+- Misumi
+- RS Components
+- McMaster-Carr
+- JLCMC
+To reduce the ecological impact of the prototype second hand or recovered components were utilized in areas that would not impact the longevity, safety or operation of the machine.
+Item aluminium profiles and relevent hardwere were recovered from decomissioned machinery. Equivalents can be sourced from the suppliers above or Item24 directly. Wherever possible material off-cuts or scrapped parts we used as stock material.   
+Bicycle components for the prototype were second hand and sourced from *Point Vélo* located on the EPFL campus. 
 ## User Guide 
 
 ### Use Instructuion 
