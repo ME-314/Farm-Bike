@@ -46,14 +46,15 @@ This section outlines the manufacting processes of each of the parts and provide
 ### Bottom Bracket Shell 
 <table>
   <tr>
-    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell0.jpg" width="200"></td>
-    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell1.jpg" width="200"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell0.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell1.jpg" width="350"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell2.jpg" width="200"></td>
-    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell3.jpg" width="200"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell2.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell3.jpg" width="350"></td>
   </tr>
 </table>
+
 ### Axle
 
 ### Pillow Block
