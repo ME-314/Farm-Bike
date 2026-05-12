@@ -40,11 +40,27 @@ This part houses the main bearings and attaches to the frame. It is a crucial pa
 ##### Axle
 The large bearings allow us to use an aluminum axle without risking the keyway becoming fragile. The axle features 25 mm bearing seats and a key way to transmit torque to the flywheel and pulley. In order to mount the cassette onto the axle while avoiding complex machining operations a donor freehub body was bonded onto the axle. The axle was of course designed around the specific freehub body availble thus the design would need to be modifed in accordance with available parts. 
 #### Derailleur Hanger
-To emulate the derailleur mounting of a conventio
+To emulate the derailleur mounting of a conventional bicycle without having to cut a fine pitch thread a deraileur hanger from a donor frame was utilized. In order to correctly position it with respect to the axle and cassette a mount was designed out of 3mm aluminium sheet. The mount exploits the advantages of bent sheet metal to acheive a robust yet lightweight solution. 
 ## Manufacturing 
+This section outlines the manufacting processes of each of the parts and provides photos of the components. It assumes the read is comfortable with conventrial machining processes and general fabrication and thus omits the details of most trival operations. Some parts in the assembly are overlooked in this section as their manufacturing features no operations of intrest. 
+### Bottom Bracket Shell 
+<table>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell0.jpg" width="200"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell1.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell2.jpg" width="200"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell3.jpg" width="200"></td>
+  </tr>
+</table>
+### Axle
 
-### Hub
+### Pillow Block
 [![Watch the video](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)
+
+### Derailleur Mount
+
 
 ## User Guide 
 
