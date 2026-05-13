@@ -1,6 +1,7 @@
 # Farm-Bike
 ## Preamble
 A simultaneous engineering project at EPFL under the *Durabilité* unit, which aims to create a modular power source for various farm machinery utilizing human work as the source of power. The development of this machine was the subject of a simultaneous engineering project (course code: ME-314) and is the work of a whole semester. The project describes every step from design to machining and testing. 
+
 ![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.jpg "Render of the machine")
 **ADD CONCLUSION ON FINAL RESULT** 
 The following README contains that may overlap with other documentation contained in the repository but is not a replacement for those documents.  
@@ -146,8 +147,21 @@ Before coupling the Farm-Bike to an external machine, the user must ensure that 
 To stop the machine, the user should simply reduce pedalling effort progressively and allow the drivetrain and flywheel to slow down naturally. The user should not attempt to stop the flywheel, pulley or chain by hand. After use, the machine should be inspected for loose fasteners, abnormal noise, chain misalignment or signs of wear. If the machine has been used outdoors or stored in humid conditions, exposed steel parts should be dried and checked for corrosion.
 
 ### Maintenance Guide 
+Time intervals for preventative maintenance are a guidelines, maintenance intervals should be adjusted in accordance with conditions of use and storage. 
+- each use inspect fasteners and drivetrain
+- 7-10h clean and lubricate chain
+- 30-50h degrease and lubricate chain
+- 100h inspect drivetrain for wear
+- 150h disassemble and inspect hub and crank set 
+
+Parts deemed inoperable during inspection are to be replaced
 
 ### Troubleshooting Guide  
+Common issues and their most common cause. 
+-  Unusual noise &rarr; loose faster &rarr; Verify and tighten fasteners
+- Chain skips under power &rarr; Worn drivetrain components &rarr; replace chain, if issue persists replace cassette and chainrings 
+- Chain jumps between gears &rarr; shifting not adjusted &rarr; adjust shift cable
+- Chain fall of top or bottom of cassette &rarr; derailleur limits out of adjustment &rarr; Adjust derailleur limits
 
 ## Testing 
 
