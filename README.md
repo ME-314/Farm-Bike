@@ -165,15 +165,15 @@ Common issues and their most common cause.
 
 ## Testing 
 
-### Test number 1: 14/05/2026
+### Test number 1: 14/05/2026 (Week 12)
 
-The first functional test was carried out directly at the Bassenges farm. The Farm-Bike was brought to the farm and connected to two existing machines: the polenta grinder and the corn sheller. Pulleys were installed on both machines, after which the bike was coupled to the system and tested. The first test was successful, as the Farm-Bike was able to drive the machines through the belt transmission. The whole Bassenges team was present during the test.
+The first functional test was carried out directly at the Bassenges farm. The Farm-Bike prototype was brought to the farm and connected to two existing machines: the polenta grinder and the corn sheller. Pulleys were installed on both machines, after which the bike was coupled to the system and tested. The first test was successful, as the Farm-Bike was able to drive the machines through the belt transmission. The whole Bassenges team was present during the test.
 
 However, once the system was operating, an important ergonomic issue was identified by Timothée, the farmer responsible for following the project at the Bassenges farm. In the initial configuration, the bike was not facing the machines. This meant that a single operator could not comfortably pedal the bike and load the machines at the same time. This feedback highlighted an important practical limitation of the first assembly.
 
-After considering the problem, the team realized that the modular aluminium profile frame made it possible to rearrange the bike without manufacturing new parts. Several components were repositioned so that the pulley attachment faced the opposite direction and was located at the front of the bike. This reassembly took approximately one and a half hours, but it allowed the Farm-Bike to be adapted directly to the farmer's request.
+After considering the problem, we realized that the modular aluminium profile frame made it possible to rearrange the bike without manufacturing new parts. Several components were repositioned so that the pulley attachment faced the opposite direction and was located at the front of the bike. This reassembly took approximately an hour and a half, but it allowed the Farm-Bike to be adapted directly to the farmer's request. Due to the lack of equipment at the farm, we were not able to reduce the lenght of the chain (due for next week).
 
-This test confirmed the value of using modular aluminium profiles for the frame. The ability to modify the geometry of the machine on site was a major advantage during the testing phase. If the frame had been fully welded or made as a fixed steel structure, this last-minute correction would not have been possible without significant rework.
+Test 1 confirmed the value of using modular aluminium profiles for the frame. The ability to modify the geometry of the machine on site was a major advantage during the testing phase. If the frame had been fully welded or made as a fixed steel structure, this last-minute correction would not have been possible without significant rework.
 
 The following images show the Farm-Bike before and after the reassembly:
 
