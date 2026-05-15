@@ -180,7 +180,7 @@ The following images show the Farm-Bike before and after the reassembly:
 <table>
   <tr>
     <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/Test1_Before.jpg" width="450"></td>
-    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/Test1_After.jpg" width="450"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/Test1_After.JPG" width="450"></td>
   </tr>
   <tr>
     <td align="center"><em>Initial configuration</em></td>
