@@ -4,7 +4,7 @@ A simultaneous engineering project at EPFL under the *Durabilité* unit, which a
 
 ![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.jpg "Render of the machine")
 **ADD CONCLUSION ON FINAL RESULT** 
-The following README contains that may overlap with other documentation contained in the repository but is not a replacement for those documents.  
+The following README contains that may overlap with other documentation contained in the repository but is not intended as a replacement for those documents.  
 ## Specification 
 #### Functionality 
 - Provide a way of converting human power into useful shaft work
@@ -130,7 +130,7 @@ Normalized industrial parts for this project can be commonly bought new from wel
 - McMaster-Carr
 - JLCMC
 
-To reduce the ecological impact of the prototype second hand or recovered components were utilized in areas that would not impact the longevity, safety or operation of the machine.
+To reduce the ecological impact of the prototype, second hand or recovered components were utilized in areas that would not impact the longevity, safety or operation of the machine.
 Item aluminium profiles and relevant hardware were recovered from decommissioned machinery. Equivalents can be sourced from the suppliers above or Item24 directly. Wherever possible material off-cuts or scrapped parts we used as stock material.   
 Bicycle components for the prototype were second hand and sourced from *Point Vélo* located on the EPFL campus. 
 ## User Guide 
@@ -152,20 +152,23 @@ Time intervals for preventative maintenance are a guidelines, maintenance interv
 - 7-10h clean and lubricate chain
 - 30-50h degrease and lubricate chain
 - 100h inspect drivetrain for wear
-- 150h disassemble and inspect hub and crank set 
+- 150h disassemble and inspect hub and crank set
 
-Parts deemed inoperable during inspection are to be replaced
+Parts deemed inoperable during inspection are to be replaced 
+
+For a more detailed explanation on fitting adjusting and maintaining bicycle specific components please refer to General Operations Manual *(ref:DM-GN0001)* published by Shimano.
 
 ### Troubleshooting Guide  
-Common issues and their most common cause. 
--  Unusual noise &rarr; loose faster &rarr; Verify and tighten fasteners
+Common issues and their most common causes. 
+- Unusual noise &rarr; loose faster &rarr; Verify and tighten fasteners
 - Chain skips under power &rarr; Worn drivetrain components &rarr; replace chain, if issue persists replace cassette and chainrings 
 - Chain jumps between gears &rarr; shifting not adjusted &rarr; adjust shift cable
 - Chain fall of top or bottom of cassette &rarr; derailleur limits out of adjustment &rarr; Adjust derailleur limits
+- Excessive friction in drivetrain under no load &rarr; debris stuck or tangled in drivetrain &rarr; inspect drivetrain and remove debris
 
 ## Testing 
 
-### Test number 1: 14/05/2026 (Week 12)
+### Initial Testing
 
 The first functional test was carried out directly at the Bassenges farm. The Farm-Bike prototype was brought to the farm and connected to two existing machines: the polenta grinder and the corn sheller. Pulleys were installed on both machines, after which the bike was coupled to the system and tested. The first test was successful, as the Farm-Bike was able to drive the machines through the belt transmission. The whole Bassenges team was present during the test.
 
@@ -173,7 +176,7 @@ However, once the system was operating, an important ergonomic issue was identif
 
 After considering the problem, we realized that the modular aluminium profile frame made it possible to rearrange the bike without manufacturing new parts. Several components were repositioned so that the pulley attachment faced the opposite direction and was located at the front of the bike. This reassembly took approximately an hour and a half, but it allowed the Farm-Bike to be adapted directly to the farmer's request. Due to the lack of equipment at the farm, we were not able to reduce the length of the chain (due for next week).
 
-Test 1 confirmed the value of using modular aluminium profiles for the frame. The ability to modify the geometry of the machine on site was a major advantage during the testing phase. If the frame had been fully welded or made as a fixed steel structure, this last-minute correction would not have been possible without significant rework.
+Initial testing confirmed the value of using modular aluminium profiles for the frame. The ability to modify the geometry of the machine on site was a major advantage during the testing phase. If the frame had been fully welded or made as a fixed steel structure, this last-minute correction would not have been possible without significant rework.
 
 The following images show the Farm-Bike before and after the reassembly:
 
@@ -184,6 +187,6 @@ The following images show the Farm-Bike before and after the reassembly:
   </tr>
   <tr>
     <td align="center"><em>Initial configuration</em></td>
-    <td align="center"><em>Reassembled configuration after farmer feedback</em></td>
+    <td align="center"><em>Modified configuration</em></td>
   </tr>
 </table>
