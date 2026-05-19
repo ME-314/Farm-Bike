@@ -2,7 +2,7 @@
 ## Preamble
 A simultaneous engineering project at EPFL under the *Durabilité* unit, which aims to create a modular power source for various farm machinery utilizing human work as the source of power. The development of this machine is the work of a whole semester. The project describes every step from design to machining and testing. 
 
-![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.jpg "Render of the machine")
+![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.png "Render of the machine")
 **ADD CONCLUSION ON FINAL RESULT** 
 The following README contains that may overlap with other documentation contained in the repository but is not intended as a replacement for those documents.  
 ## Specification 
