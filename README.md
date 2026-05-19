@@ -137,6 +137,22 @@ Item aluminium profiles and relevant hardware were recovered from decommissioned
 Bicycle components for the prototype were second hand and sourced from *Point Vélo* located on the EPFL campus. 
 ## User Guide 
 
+## Final Assembly and Pre-Testing Prototype
+
+After the design and manufacturing phases, the **Farm-Bike prototype** was fully assembled.
+
+The image below shows the assembled Farm-Bike prototype in its final pre-testing configuration. It highlights the complete mechanical structure, including the aluminium frame, the bicycle transmission, the rear wheel 10-speed cassette, the pedals, and the operator interface.
+
+<p align="center">
+  <img src="Resources/Pretesting_prototype.JPG" alt="Assembled Farm-Bike prototype in pre-testing configuration" width="800">
+</p>
+
+<p align="center">
+  <em>Assembled Farm-Bike prototype.</em>
+</p>
+
+This final assembly represents the functional outcome of the project and serves as the basis for future improvements, such as ergonomic optimisation, stronger machine coupling, and further field testing at the farm.
+
 ### Use Instructions 
 Before operating the machine, ensure that it is placed on a stable and level surface. The frame should not rock or move under load, and all fasteners securing the aluminium profiles, pillow block, bottom bracket shell, seat post and handlebar assembly should be checked for tightness. The pulley, flywheel and cassette should be visually inspected to ensure that they are correctly seated and that no foreign object is interfering with the drivetrain.
 
