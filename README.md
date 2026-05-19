@@ -1,6 +1,6 @@
 # Farm-Bike
 ## Preamble
-A simultaneous engineering project at EPFL under the *Durabilité* unit, which aims to create a modular power source for various farm machinery utilizing human work as the source of power. The development of this machine was the subject of a simultaneous engineering project (course code: ME-314) and is the work of a whole semester. The project describes every step from design to machining and testing. 
+A simultaneous engineering project at EPFL under the *Durabilité* unit, which aims to create a modular power source for various farm machinery utilizing human work as the source of power. The development of this machine is the work of a whole semester. The project describes every step from design to machining and testing. 
 
 ![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.jpg "Render of the machine")
 **ADD CONCLUSION ON FINAL RESULT** 
@@ -29,6 +29,8 @@ A transmission based on bicycle components is the optimal of the self solution t
 - Handlebars & Stem
 - Crank set & Bottom Bracket
 - Seat post & Saddle 
+
+The machine is designed to be used as a modular power source for various farming implements, many of which are hand cranked and operate are around 60 rpm. Gear ratios of the bicycle drivetrain and the sizes of the pulleys were chose in a way that allows the operator adjust the rotational speed up and down without stopping the machine. With the chosen cassette and chainrings and an assumed cadence of 70 rpm the output of the machine can vary between 47 and 137 rpm. If necessary the size of driven pulley mounted to the farming implement can be adjusted to suit.
 
 The subsequent paragraph describe the design of each of the machine specific parts. The parts were designed to conform with bicycle industry standards such that commissioning and maintenance could be carried out by anyone familiar with common bicycles.
 #### Bottom Bracket Shell
@@ -160,11 +162,11 @@ For a more detailed explanation on fitting adjusting and maintaining bicycle spe
 
 ### Troubleshooting Guide  
 Common issues and their most common causes. 
-- Unusual noise &rarr; loose faster &rarr; Verify and tighten fasteners
-- Chain skips under power &rarr; Worn drivetrain components &rarr; replace chain, if issue persists replace cassette and chainrings 
-- Chain jumps between gears &rarr; shifting not adjusted &rarr; adjust shift cable
-- Chain fall of top or bottom of cassette &rarr; derailleur limits out of adjustment &rarr; Adjust derailleur limits
-- Excessive friction in drivetrain under no load &rarr; debris stuck or tangled in drivetrain &rarr; inspect drivetrain and remove debris
+- Unusual noise &rarr; Loose fastener &rarr; Verify and tighten fasteners
+- Chain skips under power &rarr; Worn drivetrain components &rarr; Replace chain, if issue persists replace cassette and chainrings 
+- Chain jumps between gears &rarr; Shifting not adjusted &rarr; Adjust shift cable
+- Chain fall of top or bottom of cassette &rarr; Derailleur limits out of adjustment &rarr; Adjust derailleur limits
+- Excessive friction in drivetrain under no load &rarr; Debris stuck or tangled in drivetrain &rarr; Inspect drivetrain and remove debris
 
 ## Testing 
 
