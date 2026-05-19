@@ -148,7 +148,7 @@ The image below shows the assembled Farm-Bike prototype in its final pre-testing
 </p>
 
 <p align="center">
-  <em>Assembled Farm-Bike prototype and final product.</em>
+  <em>Assembled Farm-Bike prototype.</em>
 </p>
 
 This final assembly represents the functional outcome of the project and serves as the basis for future improvements, such as ergonomic optimisation, stronger machine coupling, and further field testing at the farm.
