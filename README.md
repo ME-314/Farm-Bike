@@ -1,6 +1,7 @@
 # Farm-Bike
 ## Preamble
 A simultaneous engineering project at EPFL under the *Durabilité* unit, which aims to create a modular power source for various farm machinery utilizing human work as the source of power. The development of this machine is the work of a whole semester. The project describes every step from design to machining and testing. 
+The CAD models for this project can be found in the *CadParts* folder and the manufacturing and assembly drawings in the *Drafts* folder.
 
 ![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.png "Render of the machine")
 **ADD CONCLUSION ON FINAL RESULT** 
