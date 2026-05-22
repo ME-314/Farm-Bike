@@ -34,6 +34,45 @@ A transmission based on bicycle components is the optimal of the self solution t
 The machine is designed to be used as a modular power source for various farming implements, many of which are hand cranked and operate are around 60 rpm. Gear ratios of the bicycle drivetrain and the sizes of the pulleys were chose in a way that allows the operator adjust the rotational speed up and down without stopping the machine. With the chosen cassette and chainrings and an assumed cadence of 70 rpm the output of the machine can vary between 47 and 137 rpm. If necessary the size of driven pulley mounted to the farming implement can be adjusted to suit.
 
 The subsequent paragraph describe the design of each of the machine specific parts. The parts were designed to conform with bicycle industry standards such that commissioning and maintenance could be carried out by anyone familiar with common bicycles.
+## Gear Ratios and Speed Calculations
+
+The speed calculations are available in the spreadsheet included in the GitHub repository:
+
+```text
+Documentation/FarmBikeSpeedCalc.xlsx
+```
+
+The assumed rider input is a cadence of **70 rpm** and a mechanical power of **250 W**.
+
+The crank torque is calculated as:
+
+```math
+T_{\mathrm{crank}} = \frac{P \cdot 60}{n \cdot 2\pi} = 34.10~\mathrm{N\,m}
+```
+
+The high-speed case uses the smallest cassette sprocket, while the low-speed case uses the largest cassette sprocket. The final pulley stage uses a **71 mm drive pulley** and a **112 mm driven pulley**.
+
+### Drivetrain Calculation Table
+
+| Parameter | High-speed setting | Low-speed setting |
+|---|---:|---:|
+| Chainring teeth | 34 | 34 |
+| Cassette sprocket teeth | 11 | 32 |
+| Bicycle drivetrain ratio `i_chain = N_chainring / N_cassette` | 3.09 | 1.06 |
+| Hub speed at 70 rpm cadence [rpm] | 216.36 | 74.38 |
+| Hub torque for 250 W input [N·m] | 11.03 | 32.09 |
+| Drive pulley diameter [mm] | 71 | 71 |
+| Driven pulley diameter [mm] | 112 | 112 |
+| Pulley ratio `i_pulley = D_drive / D_driven` | 0.63 | 0.63 |
+| Overall speed ratio `i_tot = i_chain × i_pulley` | 1.96 | 0.67 |
+| Machine output speed [rpm] | 137.16 | 47.15 |
+| Machine output torque [N·m] | 17.40 | 50.63 |
+
+For the currently selected driven pulley diameter of **112 mm**, this range covers the operating speed of the polenta mill and corn sheller used during testing.
+
+In the spreadsheet, a centre-to-centre distance of **1000 mm** is also used. This gives an estimated belt length of approximately **2288 mm** for the **71 mm / 112 mm pulley pair**.
+
+The subsequent paragraphs describe the design of each of the machine-specific parts. These parts were designed to conform with bicycle industry standards so that commissioning and maintenance could be carried out by anyone familiar with common bicycles.
 #### Bottom Bracket Shell
 The bottom bracket shell attaches the standard BSA bicycle bottom bracket to the frame. The part is a weldment of a round bottom bracket shell recovered from a donor frame and a 40 mm * 30 mm rectangular steel tube. The part requires far less material resources then an equivalent machined from a billet and does not require specialty tooling to cut the BSA thread. 
 #### Hub
