@@ -226,7 +226,7 @@ Common issues and their most common causes.
 
 ## Testing 
 
-### Initial Testing
+### Initial Testing (Week 12)
 
 The first functional test was carried out directly at the Bassenges farm. The Farm-Bike prototype was brought to the farm and connected to two existing machines: the polenta grinder and the corn sheller. Pulleys were installed on both machines, after which the bike was coupled to the system and tested. The first test was successful, as the Farm-Bike was able to drive the machines through the belt transmission. The whole Bassenges team was present during the test.
 
@@ -248,6 +248,7 @@ The following images show the Farm-Bike before and after the reassembly:
     <td align="center"><em>Modified configuration</em></td>
   </tr>
 </table>
+
 ### Second Testing Session and Adjustments (Week 13)
 
 The second day of testing allowed the team to further adapt the **Farm-Bike prototype** based on the observations made during the first trial.
