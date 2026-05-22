@@ -248,3 +248,22 @@ The following images show the Farm-Bike before and after the reassembly:
     <td align="center"><em>Modified configuration</em></td>
   </tr>
 </table>
+### Second Testing Session and Adjustments (Week 13)
+
+The second day of testing allowed the team to further adapt the **Farm-Bike prototype** based on the observations made during the first trial.
+
+In particular, the chain length was adjusted and the seating position was modified accordingly. The overall design proved to be functional; however, the shortening of the chain had an effect on the shifting performance. Gear changes became less smooth than before, and the most extreme gear-ratio settings became more difficult to use.
+
+Another important feedback point was given by **Timothée**, who suggested keeping the inertial wheel attached to the corn sheller. In response to this, the pulley transmission was modified. Instead of removing the inertial wheel, the pulley system was attached to the rear side of the transmission axle, replacing an old unused gear. This allowed the inertial wheel to be reinstalled on the machine while still maintaining the connection between the Farm-Bike and the corn sheller.
+
+The following day, the team returned to the farm to make additional ergonomic and functional improvements. The shifting cable was shortened, and the stem was lengthened in order to improve both the shifting accessibility and the seating position. These modifications made the system more comfortable to operate and better adapted to the user during testing.
+
+The image below shows the Farm-Bike connected to the corn sheller during the testing phase.
+
+<p align="center">
+  <img src="Resources/FarmBike_CornSheller.JPG" alt="Farm-Bike prototype connected to the corn sheller during testing" width="800">
+</p>
+
+<p align="center">
+  <em>Farm-Bike prototype connected to the corn sheller during testing.</em>
+</p>
