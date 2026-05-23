@@ -34,7 +34,7 @@ A transmission based on bicycle components is the optimal of the self solution t
 The machine is designed to be used as a modular power source for various farming implements, many of which are hand cranked and operate are around 60 rpm. Gear ratios of the bicycle drivetrain and the sizes of the pulleys were chose in a way that allows the operator adjust the rotational speed up and down without stopping the machine. With the chosen cassette and chainrings and an assumed cadence of 70 rpm the output of the machine can vary between 47 and 137 rpm. If necessary the size of driven pulley mounted to the farming implement can be adjusted to suit.
 
 The subsequent paragraph describe the design of each of the machine specific parts. The parts were designed to conform with bicycle industry standards such that commissioning and maintenance could be carried out by anyone familiar with common bicycles.
-## Gear Ratios and Speed Calculations
+#### Gear Ratios and Speed Calculations
 
 The speed calculations are available in the spreadsheet included in the GitHub repository:
 
@@ -52,7 +52,7 @@ T_{\mathrm{crank}} = \frac{P \cdot 60}{n \cdot 2\pi} = 34.10~\mathrm{N\,m}
 
 The high-speed case uses the smallest cassette sprocket, while the low-speed case uses the largest cassette sprocket. The final pulley stage uses a **71 mm drive pulley** and a **112 mm driven pulley**.
 
-### Drivetrain Calculation Table
+##### Drivetrain Calculation Table
 
 | Parameter | High-speed setting | Low-speed setting |
 |---|---:|---:|
