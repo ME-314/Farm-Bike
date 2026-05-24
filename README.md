@@ -22,7 +22,10 @@ The following README contains that may overlap with other documentation containe
 - Easy maintenance procedures
 ## Design 
 The design of the machine was driven by the specification outlined above and the will to ensure the project can be replicated or further developed in the future. The design choices are driven by the will to create a machine that has a long service life, quality parts and material were chosen over low-cost alternatives.
-[![Overview of design](https://github.com/ME-314/Farm-Bike/blob/main/Resources/Farm-BikeAnimation.mp4)](https://github.com/ME-314/Farm-Bike/blob/main/Resources/Farm-BikeAnimation.mp4)
+
+https://github.com/ME-314/Farm-Bike/blob/main/Resources/Farm-BikeAnimation.mp4
+
+
 ### Frame
 The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only of the shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm * 40 mm T-slot aluminium extrusion. The choice of aluminium extrusion was made to ensure availability of materials in any geographical region as well as ensure repairability, the ease of manufacture was of course a welcome bonus.
 ### Drivetrain
