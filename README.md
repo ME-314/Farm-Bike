@@ -1,3 +1,4 @@
+## update readme, complete version on the pdf, it was too late so i didnt end up doing it
 # Farm-Bike
 ## Preamble
 A simultaneous engineering project at EPFL under the *Durabilité* unit, which aims to create a modular power source for various farm machinery utilizing human work as the source of power. The development of this machine is the work of a whole semester. The project describes every step from design to machining and testing. 
