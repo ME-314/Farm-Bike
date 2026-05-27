@@ -9,9 +9,13 @@ A simultaneous engineering project at EPFL under the *Durabilité* unit, which a
 </table>
 The machine built has successfully fulfilled the requirements outlined in the subsequent paragraphs, multiple farming implements were also retrofitted to be compatible with it. Testing showed promising results and the modularity of the design proved indispensable.  
 
-The CAD models for this project can be found in the *CadParts* folder and the manufacturing and assembly drawings in the *Drafts* folder. The *Design* section shows general design intent and is aimed at anyone wanting to recreated as similar design or better understand this one. Meanwhile the *Manufacturing* section describes the most interesting challenges faced during the fabrication of this prototype. The safe operation of machinery used requires training that this document doesn't provide. For this reason the *Manufacturing* section is not a guide and omits operations that are trivial to readers familiar with metalworking. This section is intended to provide ideas on the order of operations or fabrication techniques.   
+The CAD models for this project can be found in the *CadParts* folder and the manufacturing and assembly drawings in the *Drafts* folder. The *Design* section shows general design intent and is aimed at anyone wanting to recreated as similar design or better understand this one. Meanwhile the *Manufacturing* section describes the most interesting challenges faced during the fabrication of this prototype. The safe operation of machinery used requires training that this document doesn't provide. For this reason the *Manufacturing* section is not a guide and omits operations that are trivial to readers familiar with metalworking. This section is intended to provide ideas on the order of operations or fabrication techniques.  Necessary processes are specified per part to help the evaluate the feasibly in accordance with available resources   
 
-The following README contains that may overlap with other documentation contained in the repository but is not intended as a replacement for those documents.  
+The following README contains that may overlap with other documentation contained in the repository but is not intended as a replacement for those documents. 
+
+<a href="https://example.com">ME-314 Farm-Bike</a> © 2026 by <a href="https://example.com">Franciszek Szymanski</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+
+
 ## Specification 
 #### Functionality 
 - Provide a way of converting human power into useful shaft work
@@ -31,7 +35,7 @@ The design of the machine was driven by the specification outlined above and the
 ![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.png "Render of the machine")
 
 The render above outlines the key components of the machine.
-### Frame
+### [Frame](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/FrameAssembly.pdf)
 The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only of the shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm * 40 mm T-slot aluminium extrusion. This size of extrusions constrained the design to use M8 fasteners throughout. The choice of aluminium extrusion was made to ensure availability of materials in any geographical region as well as ensure repairability, the ease of manufacture was of course a welcome bonus.
 ### Drivetrain
 A transmission based on bicycle components is the optimal of the self solution to our problem. It offers robustness, ease of maintenance and worldwide availability at a low cost. The following components in the system required no modification from their retail configuration: 
@@ -60,9 +64,12 @@ This part houses the main bearings and attaches to the frame. It is a crucial pa
 The large bearings allow us to use an aluminium axle without risking the keyway becoming fragile. The axle features 25 mm bearing seats and a key way to transmit torque to the flywheel and pulley. In order to mount the cassette onto the axle while avoiding complex machining operations a donor freehub body was bonded onto the axle. The axle was of course designed around the specific freehub body available thus the design would need to be modified in accordance with available parts. 
 #### Derailleur Hanger
 To emulate the derailleur mounting of a conventional bicycle without having to cut a fine pitch thread a derailleur hanger from a donor frame was utilized. In order to correctly position it with respect to the axle and cassette a mount was designed out of 3mm 5005 aluminium sheet. The mount exploits the advantages of bent sheet metal to achieve a robust yet lightweight solution. 
-## Manufacturing 
-This section outlines the manufacturing processes of each of the parts and provides photos of the components. It assumes the reader is comfortable with conventional machining processes and general fabrication and thus omits the details of most trivial operations. Some parts in the assembly are overlooked in this section as their manufacturing features no operations of interest. 
-### Bottom Bracket Shell 
+## [Manufacturing](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/FarmBikeAssembly.pdf) 
+This section outlines the manufacturing processes of each of the parts and provides photos of the components. It assumes the reader is comfortable with conventional machining processes and general fabrication and thus omits the details of most trivial operations. Some parts in the assembly are overlooked in this section as their manufacturing features no operations of interest.
+### [Bottom Bracket Shell](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/BottomBracketMount.pdf) 
+- TIG Welding
+- Turning 
+
 This is the only weldment on the machine, consisting of two parts with thin sections. The donor frame was chose for its steel construction and BSA threaded bottom bracket. The shell was cut out and turned down to a constant diameter. During the turning operations a close fitting aluminium plug was used on the inside of the threads to provide tailstock support. The hole for the shell in the rectangular tubing was roughed out with a hole saw on a mill and fitted by hand with a file. The two parts were subsequently TIG welded and the thread was chased. TIG welding was used because of the thin material and in order to preserve as much of the BSA thread inside the shell.     
 <table>
   <tr>
@@ -76,9 +83,14 @@ This is the only weldment on the machine, consisting of two parts with thin sect
 </table>
 After welding, the oxides were removed and the part was finished with automotive anti-rust primer. 
 
-### Axle
+### [Axle](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/DriveAxle.pdf)
+- Turning 
+- Milling
+
 The machining operations did not deviate from standard practice. Loctite 603 retaining compound was used to chemically bond the freehub body to the axle. Chemical bonding was chosen to remove the need for pressing in the axle thus eliminating the risk of fracture on the hardened freehub body. 
-### Pillow Block
+### [Pillow Block](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/PillowBlock.pdf)
+- Turning 
+- Milling
 Due to limitations in the available stock material the pillow block was machined from two separate pieces of stock. 
 [![Watch the video](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)
 
@@ -107,7 +119,10 @@ The operations were carried out in the following order:
 Following machining, deburring and finishing was carried out and the bearings were fitted
 
 
-### Fly Wheel
+###  Fly Wheel
+- Turning 
+- If available fibre laser cutting or water jet
+
 In order to avoid procuring costly stock material the fly wheel is cut out of 5 mm S235 structural steel and the pieces are pinned together. The use of a fibre laser allows for significant time saving but all of the parts can be machined using conventional process. The parts were pressed together with an arbor press and a coat of anti-rust primer protects against corrosion.
 <table>
   <tr>
@@ -116,7 +131,7 @@ In order to avoid procuring costly stock material the fly wheel is cut out of 5 
   </tr>
 </table>
 
-### Hub 
+### [Hub](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/HubExploded.pdf) 
 Precaution taken during assembly of the hub:
 - Parts cleaned and lubricated 
 - Light preload applied to the bearings 
@@ -130,6 +145,10 @@ Precaution taken during assembly of the hub:
 </table> 
 
 ### Derailleur Mount
+- Metal Cutting
+- Sheet Metal Bending
+- If available fibre laser cutting or water jet
+
 Just like the fly wheel the derailleur mount was cut with the use of a fibre laser. Due to its non trivial geometry the sheet metal part was bent in a bench vice with the help of parallel jaw pliers. The existing derailleur hanger was hand fitted during the finishing process. As most of the parts geometries are non mating surfaces the part could be replicated with hand tools. The geometry cam be modified to suit the manufacturing methods available.
 <table>
   <tr>
@@ -143,18 +162,18 @@ Just like the fly wheel the derailleur mount was cut with the use of a fibre las
 </table> 
 
 ## Procurement Guide 
-Normalized industrial parts for this project can be commonly bought new from well established suppliers. The parts for the prototype were sourced from Norelem, but equivalent parts can be source from: 
-- Misumi
-- RS Components
-- McMaster-Carr
-- JLCMC
-
+Normalized industrial parts for this project can be commonly bought new from well established suppliers. The parts for the prototype were sourced from [Norelem](https://www.norelem.ch/), but equivalent parts can be source from: 
+- [Misumi](https://fr.misumi-ec.com/)
+- [RS Components](https://us.rs-online.com/)
+- [McMaster-Carr](https://www.mcmaster.com/)
+- [JLCMC](https://jlcmc.com/)
+In this project the part numbers specified on assembly drawings and in the cad model correspond to Norelem part numbers.  
 To reduce the ecological impact of the prototype, second hand or recovered components were utilized in areas that would not impact the longevity, safety or operation of the machine.
 Item aluminium profiles and relevant hardware were recovered from decommissioned machinery. Equivalents can be sourced from the suppliers above or Item24 directly. Wherever possible material off-cuts or scrapped parts we used as stock material.   
 Bicycle components for the prototype were second hand and sourced from *Point Vélo* located on the EPFL campus. 
 ## User Guide 
 
-## Final Assembly and Pre-Testing Prototype
+### Prototype Overview
 
 After the design and manufacturing phases, the **Farm-Bike prototype** was fully assembled.
 
@@ -203,7 +222,7 @@ Common issues and their most common causes.
 
 ## Testing 
 
-### Initial Testing (Week 12)
+### Initial Testing
 
 The first functional test was carried out directly at the Bassenges farm. The Farm-Bike prototype was brought to the farm and connected to two existing machines: the polenta grinder and the corn sheller. Pulleys were installed on both machines, after which the bike was coupled to the system and tested. The first test was successful, as the Farm-Bike was able to drive the machines through the belt transmission. The whole Bassenges team was present during the test.
 
@@ -226,7 +245,7 @@ The following images show the Farm-Bike before and after the reassembly:
   </tr>
 </table>
 
-### Second Testing Session and Adjustments (Week 13)
+### Second Testing Session
 
 The second day of testing allowed the team to further adapt the **Farm-Bike prototype** based on the observations made during the first trial.
 
@@ -245,3 +264,5 @@ The image below shows the Farm-Bike connected to the corn sheller during the tes
 <p align="center">
   <em>Farm-Bike prototype connected to the corn sheller during testing.</em>
 </p>
+
+## Conclusion
