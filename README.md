@@ -229,12 +229,14 @@ Parts deemed inoperable during inspection are to be replaced
 For a more detailed explanation on fitting adjusting and maintaining bicycle specific components please refer to General Operations Manual *(ref:DM-GN0001)* published by Shimano.
 
 ### Troubleshooting Guide  
-Common issues and their most common causes. 
-- Unusual noise &rarr; Loose fastener &rarr; Verify and tighten fasteners
-- Chain skips under power &rarr; Worn drivetrain components &rarr; Replace chain, if issue persists replace cassette and chainrings 
-- Chain jumps between gears &rarr; Shifting not adjusted &rarr; Adjust shift cable
-- Chain fall of top or bottom of cassette &rarr; Derailleur limits out of adjustment &rarr; Adjust derailleur limits
-- Excessive friction in drivetrain under no load &rarr; Debris stuck or tangled in drivetrain &rarr; Inspect drivetrain and remove debris
+
+| Issue | Likely cause | Corrective action |
+|---|---|---|
+| Unusual noise | Loose fastener | Verify and tighten fasteners. |
+| Chain skips under power | Worn drivetrain components | Replace the chain. If the issue persists, replace the cassette and chainrings. |
+| Chain jumps between gears | Shifting not adjusted | Adjust the shift cable. |
+| Chain falls off the top or bottom of the cassette | Derailleur limits out of adjustment | Adjust the derailleur limits. |
+| Excessive friction in drivetrain under no load | Debris stuck or tangled in the drivetrain | Inspect the drivetrain and remove debris. |
 
 ## Testing 
 
