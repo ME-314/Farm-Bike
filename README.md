@@ -21,9 +21,17 @@ The following README contains that may overlap with other documentation containe
 
 ## Specification 
 #### Functionality 
-- Provide a way of converting human power into useful shaft work
-- Have easily adjustable transmission ratio
-- Allow for quick coupling of multiple machines
+The Farm-Bike prototype was designed to fulfill the following main functional requirements:
+
+- Provide a way of converting human power into useful shaft work.
+- Have an easily adjustable transmission ratio.
+- Allow for quick coupling with multiple machines.
+
+In addition to these functional requirements, several quantitative design assumptions were used to dimension the prototype:
+
+- The Farm-Bike was designed for an adult operator with a cycling cadence of `n = 70 rpm` and a continuous mechanical power input of `P = 250 W`. A considerable safety factor was also taken into consideration.
+- The coupled farm machines considered during the project were assumed to operate at relatively low rotational speeds: `50–150 rpm`.
+- Ergonomic parameters, such as saddle height, handlebar position, and frame geometry, were chosen to be adjustable so that users of different sizes can pedal comfortably.
 #### Work Environment 
 - Resist an outdoor work environment subject to a central European climate
 - Resist storage in wet conditions
