@@ -65,6 +65,8 @@ With the chosen cassette and chainrings and an assumed cadence of 70 rpm the out
 
 ![Ratio Table](https://github.com/ME-314/Farm-Bike/blob/main/Resources/GearCalculations.png "Ratio Table")
 
+For the currently selected driven pulley diameter of 112 mm, this range covers the operating speed of the polenta mill and corn sheller used during testing. In the spreadsheet you can also see a centre-to-centre distance of 1000 mm, which gives an estimated belt length of approximately 2288 mm for the 71 mm and 112 mm pulley pair.
+
 #### Bottom Bracket Shell
 The bottom bracket shell attaches the standard BSA bicycle bottom bracket to the frame. The part is a weldment of a round bottom bracket shell recovered from a donor frame and a 40 mm * 30 mm rectangular steel tube. The part requires far less material resources then an equivalent machined from a billet and does not require specialty tooling to cut the BSA thread. 
 #### Hub
