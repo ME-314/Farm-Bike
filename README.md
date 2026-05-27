@@ -94,7 +94,8 @@ The machining operations did not deviate from standard practice. Loctite 603 ret
 ### [Pillow Block](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/PillowBlock.pdf)
 - Turning 
 - Milling
-Due to limitations in the available stock material the pillow block was machined from two separate pieces of stock. 
+Due to limitations in the available stock material the pillow block was machined from two separate pieces of stock.
+
 [![Watch the video](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4)
 
 The operations were carried out in the following order: 
