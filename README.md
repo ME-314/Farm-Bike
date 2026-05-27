@@ -83,7 +83,9 @@ This section outlines the manufacturing processes of each of the parts and provi
 - TIG Welding
 - Turning 
 
-This is the only weldment on the machine, consisting of two parts with thin sections. The donor frame was chose for its steel construction and BSA threaded bottom bracket. The shell was cut out and turned down to a constant diameter. During the turning operations a close fitting aluminium plug was used on the inside of the threads to provide tailstock support. The hole for the shell in the rectangular tubing was roughed out with a hole saw on a mill and fitted by hand with a file. The two parts were subsequently TIG welded and the thread was chased. TIG welding was used because of the thin material and in order to preserve as much of the BSA thread inside the shell.     
+This is the only weldment on the machine, consisting of two parts with thin sections. The donor frame was chose for its steel construction and BSA threaded bottom bracket. The shell was cut out and turned down to a constant diameter. During the turning operations a close fitting aluminium plug was used on the inside of the threads to provide tailstock support. The hole for the shell in the rectangular tubing was roughed out with a hole saw on a mill and fitted by hand with a file. The two parts were subsequently TIG welded and the thread was chased. TIG welding was used because of the thin material and in order to preserve as much of the BSA thread inside the shell.  
+
+It should be noted that a farmer is not necessarily expected to have access to TIG welding equipment. A future version could therefore replace this welded part with a clamped or bolted bottom bracket support, removing the need for welding and making the design easier to reproduce with basic tools.
 <table>
   <tr>
     <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/BottomBracketShell0.jpg" width="350"></td>
