@@ -27,8 +27,10 @@ The following README contains that may overlap with other documentation containe
 - Easy maintenance procedures
 ## Design 
 The design of the machine was driven by the specification outlined above and the will to ensure the project can be replicated or further developed in the future. The design choices are driven by the will to create a machine that has a long service life, quality parts and material were chosen over low-cost alternatives.
+
 ![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.png "Render of the machine")
-The render above outlines the key components of the machine
+T
+he render above outlines the key components of the machine.
 ### Frame
 The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only of the shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm * 40 mm T-slot aluminium extrusion. This size of extrusions constrained the design to use M8 fasteners throughout. The choice of aluminium extrusion was made to ensure availability of materials in any geographical region as well as ensure repairability, the ease of manufacture was of course a welcome bonus.
 ### Drivetrain
@@ -45,6 +47,7 @@ The subsequent paragraph describe the design of each of the machine specific par
 
 #### Gear Ratios Calculation
 With the chosen cassette and chainrings and an assumed cadence of 70 rpm the output of the machine can vary between 47 and 137 rpm. If necessary the size of driven pulley mounted to the farming implement can be adjusted to suit. To simplify adapting other machinery and further development the ratio calculation spread sheet is available in the documentation.
+
 ![Ratio Table](https://github.com/ME-314/Farm-Bike/blob/main/Resources/GearCalculations.png "Ratio Table")
 
 #### Bottom Bracket Shell
