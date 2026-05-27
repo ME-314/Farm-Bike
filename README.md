@@ -283,4 +283,18 @@ The image below shows the Farm-Bike connected to the corn sheller during the tes
   <em>Farm-Bike prototype connected to the corn sheller during testing.</em>
 </p>
 
-## Conclusion
+## Last Testing Session
+
+During the final week of testing, an interview was conducted with Timothée as part of the video presentation of the project. The discussion focused on his feedback regarding the Farm-Bike prototype, his impression of the proposed solution for driving the machines, and the possible improvements he suggested for future iterations.
+
+One improvement mentioned by Timothée was to make the system compatible with flat belts. This suggestion was based on the fact that many agricultural machines from the early twentieth century were originally designed to be driven by flat belts. In addition, flat belts can be easier to manufacture or repair locally, for example from leather or other flexible materials that can be cut to the required width and length.
+
+During this final testing phase, a third pulley system was also installed on a grain sorter. This machine was different from the agricultural machines analyzed previously, which allowed the adaptability of the Farm-Bike concept to be further evaluated.
+
+## Conclusion & Future Improvements
+
+A future improvement identified during the final testing phase would be to make the Farm-Bike compatible with flat belt transmissions. Timothée pointed out that many older agricultural machines, were originally designed to be driven by flat belts. Adding this compatibility would therefore increase the number of machines that could be powered by the Farm-Bike, especially in the context of farms using older or restored equipment.
+
+This improvement would require the development of an alternative output pulley system designed specifically for flat belts. The pulley geometry, belt tensioning method and alignment system would need to be adapted, since flat belts are more sensitive to lateral misalignment than V-belts. However, this solution would also improve the repairability and local reproducibility of the system, as flat belts can be manufactured or repaired more easily from simple flexible materials, such as leather or rubber strips cut to the required width and length.
+
+More generally, this feedback shows that future development should focus not only on the Farm-Bike itself, but also on the compatibility between the bike and a wider range of agricultural machines. A modular output interface, with interchangeable pulleys for V-belts and flat belts, would make the system more versatile and better adapted to real farm conditions.
