@@ -1,11 +1,16 @@
-## update readme, complete version on the pdf, it was too late so i didnt end up doing it
 # Farm-Bike
 ## Preamble
 A simultaneous engineering project at EPFL under the *Durabilité* unit, which aims to create a modular power source for various farm machinery utilizing human work as the source of power. The development of this machine is the work of a whole semester. The project describes every step from design to machining and testing. 
-The CAD models for this project can be found in the *CadParts* folder and the manufacturing and assembly drawings in the *Drafts* folder.
+<table>
+  <tr>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/PresentationPhoto0.jpg" width="350"></td>
+    <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/PresentationPhoto2.jpg" width="350"></td>
+  </tr>
+</table>
+The machine built has successfully fulfilled the requirements outlined in the subsequent paragraphs, multiple farming implements were also retrofitted to be compatible with it. Testing showed promising results and the modularity of the design proved indispensable.  
 
-![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.png "Render of the machine")
-**ADD CONCLUSION ON FINAL RESULT** 
+The CAD models for this project can be found in the *CadParts* folder and the manufacturing and assembly drawings in the *Drafts* folder. The *Design* section shows general design intent and is aimed at anyone wanting to recreated as similar design or better understand this one. Meanwhile the *Manufacturing* section describes the most interesting challenges faced during the fabrication of this prototype. The safe operation of machinery used requires training that this document doesn't provide. For this reason the *Manufacturing* section is not a guide and omits operations that are trivial to readers familiar with metalworking. This section is intended to provide ideas on the order of operations or fabrication techniques.   
+
 The following README contains that may overlap with other documentation contained in the repository but is not intended as a replacement for those documents.  
 ## Specification 
 #### Functionality 
@@ -22,8 +27,10 @@ The following README contains that may overlap with other documentation containe
 - Easy maintenance procedures
 ## Design 
 The design of the machine was driven by the specification outlined above and the will to ensure the project can be replicated or further developed in the future. The design choices are driven by the will to create a machine that has a long service life, quality parts and material were chosen over low-cost alternatives.
+![Render of the machine](https://github.com/ME-314/Farm-Bike/blob/main/Resources/FrameAssyRender.png "Render of the machine")
+The render above outlines the key components of the machine
 ### Frame
-The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only of the shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm * 40 mm T-slot aluminium extrusion. The choice of aluminium extrusion was made to ensure availability of materials in any geographical region as well as ensure repairability, the ease of manufacture was of course a welcome bonus.
+The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only of the shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm * 40 mm T-slot aluminium extrusion. This size of extrusions constrained the design to use M8 fasteners throughout. The choice of aluminium extrusion was made to ensure availability of materials in any geographical region as well as ensure repairability, the ease of manufacture was of course a welcome bonus.
 ### Drivetrain
 A transmission based on bicycle components is the optimal of the self solution to our problem. It offers robustness, ease of maintenance and worldwide availability at a low cost. The following components in the system required no modification from their retail configuration: 
 - Cassette 
@@ -32,48 +39,14 @@ A transmission based on bicycle components is the optimal of the self solution t
 - Crank set & Bottom Bracket
 - Seat post & Saddle 
 
-The machine is designed to be used as a modular power source for various farming implements, many of which are hand cranked and operate are around 60 rpm. Gear ratios of the bicycle drivetrain and the sizes of the pulleys were chose in a way that allows the operator adjust the rotational speed up and down without stopping the machine. With the chosen cassette and chainrings and an assumed cadence of 70 rpm the output of the machine can vary between 47 and 137 rpm. If necessary the size of driven pulley mounted to the farming implement can be adjusted to suit.
+The machine is designed to be used as a modular power source for various farming implements, many of which are hand cranked and operate are around 60 rpm. Gear ratios of the bicycle drivetrain and the sizes of the pulleys were chose in a way that allows the operator adjust the rotational speed up and down without stopping the machine. 
 
 The subsequent paragraph describe the design of each of the machine specific parts. The parts were designed to conform with bicycle industry standards such that commissioning and maintenance could be carried out by anyone familiar with common bicycles.
-#### Gear Ratios and Speed Calculations
 
-The speed calculations are available in the spreadsheet included in the GitHub repository:
+#### Gear Ratios Calculation
+With the chosen cassette and chainrings and an assumed cadence of 70 rpm the output of the machine can vary between 47 and 137 rpm. If necessary the size of driven pulley mounted to the farming implement can be adjusted to suit. To simplify adapting other machinery and further development the ratio calculation spread sheet is available in the documentation.
+![Ratio Table](https://github.com/ME-314/Farm-Bike/blob/main/Resources/GearCalculations.png "Ratio Table")
 
-```text
-Documentation/FarmBikeSpeedCalc.xlsx
-```
-
-The assumed rider input is a cadence of **70 rpm** and a mechanical power of **250 W**.
-
-The crank torque is calculated as:
-
-```math
-T_{\mathrm{crank}} = \frac{P \cdot 60}{n \cdot 2\pi} = 34.10~\mathrm{N\,m}
-```
-
-The high-speed case uses the smallest cassette sprocket, while the low-speed case uses the largest cassette sprocket. The final pulley stage uses a **71 mm drive pulley** and a **112 mm driven pulley**.
-
-##### Drivetrain Calculation Table
-
-| Parameter | High-speed setting | Low-speed setting |
-|---|---:|---:|
-| Chainring teeth | 34 | 34 |
-| Cassette sprocket teeth | 11 | 32 |
-| Bicycle drivetrain ratio `i_chain = N_chainring / N_cassette` | 3.09 | 1.06 |
-| Hub speed at 70 rpm cadence [rpm] | 216.36 | 74.38 |
-| Hub torque for 250 W input [N·m] | 11.03 | 32.09 |
-| Drive pulley diameter [mm] | 71 | 71 |
-| Driven pulley diameter [mm] | 112 | 112 |
-| Pulley ratio `i_pulley = D_drive / D_driven` | 0.63 | 0.63 |
-| Overall speed ratio `i_tot = i_chain × i_pulley` | 1.96 | 0.67 |
-| Machine output speed [rpm] | 137.16 | 47.15 |
-| Machine output torque [N·m] | 17.40 | 50.63 |
-
-For the currently selected driven pulley diameter of **112 mm**, this range covers the operating speed of the polenta mill and corn sheller used during testing.
-
-In the spreadsheet, a centre-to-centre distance of **1000 mm** is also used. This gives an estimated belt length of approximately **2288 mm** for the **71 mm / 112 mm pulley pair**.
-
-The subsequent paragraphs describe the design of each of the machine-specific parts. These parts were designed to conform with bicycle industry standards so that commissioning and maintenance could be carried out by anyone familiar with common bicycles.
 #### Bottom Bracket Shell
 The bottom bracket shell attaches the standard BSA bicycle bottom bracket to the frame. The part is a weldment of a round bottom bracket shell recovered from a donor frame and a 40 mm * 30 mm rectangular steel tube. The part requires far less material resources then an equivalent machined from a billet and does not require specialty tooling to cut the BSA thread. 
 #### Hub
@@ -85,7 +58,7 @@ The large bearings allow us to use an aluminium axle without risking the keyway 
 #### Derailleur Hanger
 To emulate the derailleur mounting of a conventional bicycle without having to cut a fine pitch thread a derailleur hanger from a donor frame was utilized. In order to correctly position it with respect to the axle and cassette a mount was designed out of 3mm 5005 aluminium sheet. The mount exploits the advantages of bent sheet metal to achieve a robust yet lightweight solution. 
 ## Manufacturing 
-This section outlines the manufacturing processes of each of the parts and provides photos of the components. It assumes the read is comfortable with conventional machining processes and general fabrication and thus omits the details of most trivial operations. Some parts in the assembly are overlooked in this section as their manufacturing features no operations of interest. 
+This section outlines the manufacturing processes of each of the parts and provides photos of the components. It assumes the reader is comfortable with conventional machining processes and general fabrication and thus omits the details of most trivial operations. Some parts in the assembly are overlooked in this section as their manufacturing features no operations of interest. 
 ### Bottom Bracket Shell 
 This is the only weldment on the machine, consisting of two parts with thin sections. The donor frame was chose for its steel construction and BSA threaded bottom bracket. The shell was cut out and turned down to a constant diameter. During the turning operations a close fitting aluminium plug was used on the inside of the threads to provide tailstock support. The hole for the shell in the rectangular tubing was roughed out with a hole saw on a mill and fitted by hand with a file. The two parts were subsequently TIG welded and the thread was chased. TIG welding was used because of the thin material and in order to preserve as much of the BSA thread inside the shell.     
 <table>
