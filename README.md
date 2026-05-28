@@ -110,18 +110,17 @@ $T_{\text{hub,max}} = 32.09~\text{N}\cdot\text{m}$. With a drive pulley diameter
 of $71~\text{mm}$, corresponding to a radius of $0.0355~\text{m}$, the required 
 belt tension difference is
 
-
-
+```math
 \Delta F = \frac{T_{\text{hub,max}}}{r}
 = \frac{32.09}{0.0355}
 \simeq 904~\text{N}
-
+```
 
 Assuming a conservative ratio between the tight-side and slack-side belt tensions:
 
-
+```math
 \frac{F_{\text{tight}}}{F_{\text{slack}}} = 2
-
+```
 
 the slack-side and tight-side tensions are approximately:
 
