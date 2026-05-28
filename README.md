@@ -237,7 +237,7 @@ Following machining, deburring and finishing was carried out and the bearings we
 - Turning 
 - If available fibre laser cutting or water jet
 
-In order to avoid procuring costly stock material the fly wheel is cut out of 5 mm S235 structural steel and the pieces are pinned together. The use of a fibre laser allows for significant time saving but all of the parts can be machined using conventional process. The parts were pressed together with an arbor press and a coat of anti-rust primer protects against corrosion.
+In order to avoid procuring costly stock material the fly wheel is cut out of 5 mm S235 structural steel (a bit pedantic of a designation, we know, but what is life without whimsy) and the pieces are pinned together. The use of a fibre laser allows for significant time saving but all of the parts can be machined using conventional processes. Our parts were pressed together with an arbor press and a coat of anti-rust primer protects against corrosion. Since the flywheel geometry is relatively simple, the plates could also be manufactured using more accessible workshop methods: drilling combined with sawing, or even manual cutting followed by filing and balancing.
 <table>
   <tr>
     <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/FlyWheel0.jpg" width="350"></td>
