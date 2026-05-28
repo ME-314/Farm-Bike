@@ -49,7 +49,19 @@ For the final coupling between the Farm-Bike and the driven machine, a v-belt tr
 
 The render above outlines the key components of the machine.
 ### [Frame](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/FrameAssembly.pdf)
-The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only of the shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm * 40 mm T-slot aluminium extrusion. This size of extrusions constrained the design to use M8 fasteners throughout. The choice of aluminium extrusion was made to ensure availability of materials in any geographical region as well as ensure repairability, the ease of manufacture was of course a welcome bonus.
+The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only off-the-shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm $\times$ 40 mm T-slot aluminium extrusion. These diemntions correspond to a common industrial 
+T-slot aluminium profile size. It was specifically chosen as a compromise between stiffness, 
+weight and availability. Smaller profiles, such as 20 mm $\times$ 20 mm or 
+30 mm $\times$ 30 mm, are commonly used for light frames or small mechanical 
+assemblies, but would provide less bending and torsional stiffness for a structure supporting 
+a seated operator and transmitting pedalling loads. Larger profiles, such as 40 mm $\times$ 80 mm 
+or 80 mm $\times$ 80 mm, would increase stiffness but would also make the structure heavier, 
+more expensive and less practical to handle. 
+
+The 40 mm $\times$ 40 mm profile therefore offers a suitable intermediate solution for this 
+prototype. It is widely used in modular machine frames and workstations, and it is compatible 
+with standard T-slot accessories such as brackets, corner connectors, end plates and sliding 
+nuts. In addition, all the aluminum profiles were recovered from the SPOT workshop at EPFL and have been used in previous projects before ours.
 ### Drivetrain
 A transmission based on bicycle components is the optimal of the self solution to our problem. It offers robustness, ease of maintenance and worldwide availability at a low cost. The following components in the system required no modification from their retail configuration: 
 - Cassette 
