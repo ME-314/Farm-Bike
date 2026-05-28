@@ -110,58 +110,64 @@ $T_{\text{hub,max}} = 32.09~\text{N}\cdot\text{m}$. With a drive pulley diameter
 of $71~\text{mm}$, corresponding to a radius of $0.0355~\text{m}$, the required 
 belt tension difference is
 
-\[
+
+
 \Delta F = \frac{T_{\text{hub,max}}}{r}
 = \frac{32.09}{0.0355}
-\simeq 904~\text{N}.
-\]
+\simeq 904~\text{N}
 
-Assuming a conservative ratio between tight-side and slack-side belt tensions,
 
-\[
-\frac{F_{\text{tight}}}{F_{\text{slack}}} = 2,
-\]
+Assuming a conservative ratio between the tight-side and slack-side belt tensions:
 
-the slack-side and tight-side tensions become approximately
 
-\[
-F_{\text{slack}} \simeq 904~\text{N},
-\]
+\frac{F_{\text{tight}}}{F_{\text{slack}}} = 2
 
-\[
-F_{\text{tight}} \simeq 1808~\text{N}.
-\]
 
-The resulting radial load applied by the belt on the pulley can therefore be estimated as
+the slack-side and tight-side tensions are approximately:
 
-\[
+```math
+F_{\text{slack}} \simeq 904~\text{N}
+```
+
+```math
+F_{\text{tight}} \simeq 1808~\text{N}
+```
+
+The resulting radial load applied by the belt on the pulley can therefore be estimated as:
+
+```math
 F_{\text{belt}} = F_{\text{tight}} + F_{\text{slack}}
 = 1808 + 904
-\simeq 2712~\text{N}.
-\]
+\simeq 2712~\text{N}
+```
 
-Adding a rough estimate of the chain load gives a total lateral load of about
+Adding a rough estimate of the chain load gives a total lateral load of about:
 
-\[
-F_{\text{total}} \simeq 3.2~\text{kN}.
-\]
+```math
+F_{\text{total}} \simeq 3.2~\text{kN}
+```
 
-Since the pillow block is attached with two bolts, each bolt carries approximately
+Since the pillow block is attached with two bolts, each bolt carries approximately:
 
-\[
+```math
 F_{\text{bolt}} = \frac{F_{\text{total}}}{2}
 = \frac{3212}{2}
-\simeq 1600~\text{N}.
-\]
+\simeq 1600~\text{N}
+```
 
-Using the tensile stress area of an M8 bolt, $A_s \simeq 36.6~\text{mm}^2$, the corresponding 
-simplified shear stress is
+Using the tensile stress area of an M8 bolt, with:
 
-\[
+```math
+A_s \simeq 36.6~\text{mm}^2
+```
+
+the corresponding simplified shear stress is:
+
+```math
 \tau = \frac{F_{\text{bolt}}}{A_s}
 = \frac{1600}{36.6}
-\simeq 44~\text{MPa}.
-\]
+\simeq 44~\text{MPa}
+```
 
 This value remains low compared with the strength of standard steel bolts. Therefore, M8 bolts 
 provide a sufficient safety margin while remaining compatible with standard 40 mm aluminium 
