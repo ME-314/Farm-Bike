@@ -86,7 +86,86 @@ The bottom bracket shell attaches the standard BSA bicycle bottom bracket to the
 #### Hub
 The hub forms a central part of the transmission of the machine, it the mounts the cassette and the pulley thus transmitted all of the power generated. A flywheel is also mounted on the axle to smooth out the power delivery.  
 ##### Pillow Block
-This part houses the main bearings and attaches to the frame. It is a crucial parts that maintains the alignment between that two bearing and ensures their long life and smooth operation, for this reason it is machined out of a 6061 Aluminium billet. Due to unavailability of appropriate stock the pillow block has been split into two pieces and pinned together. It features clearance holes for two M8 mounting bolts, a central bore for the axle to pass through and two counterbores for the 6005-2Z bearings. These deep groove ball bearings have been selected to ensure a long life span as well being easy to source. Low profile ball bearing often found in bicycles have specifically been discarded as their lower profile makes them more prone to premature failure. A recess has been added at the mounting between the pillow block and the aluminium profile to prevent twisting during usage.  
+The pillow block houses the two main bearings supporting the drive axle and attaches the hub 
+assembly to the aluminium profile frame. This part is critical because it defines the alignment 
+of the axle, pulley, cassette and flywheel. A precise and rigid support was therefore required to 
+avoid bearing misalignment, vibration and premature wear during operation.
+
+The part was machined from 6061 aluminium because this material was availible for reuse to us and it offers a good compromise 
+between stiffness and corrosion resistance. Aluminum was used instead of steel because it was easier produce by machining ([link](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4 to video). The geometry includes two counterbores for 6005-2Z deep groove ball bearings. These bearings were selected because their 25 mm inner diameter matches the axle design, while their larger size provides better robustness than low-profile bicycle bearings. They are also standard industrial components, making them easy to source and replace.
+
+Due to the limited stock material available during manufacturing, the pillow block was produced from 
+two separate pieces that were pinned together. 
+
+The pillow block is fixed to the aluminium profile frame using two M8 bolts. This bolt size was 
+selected because M8 fasteners are commonly used with 40 mm modular aluminium profiles and 
+provide a robust connection without requiring excessive space on the pillow block. Smaller bolts, such as M5 or M6, would be easier to package but would offer less clamping force and lower 
+resistance to loosening under vibration. Larger bolts, such as M10, would increase the required 
+hole size and reduce the available material around the bearing seats without providing a 
+significant advantage for the expected loads.
+
+This choice was checked using a simplified load estimate based on the maximum hub torque. 
+In the low-speed setting, the hub torque is approximately 
+$T_{\text{hub,max}} = 32.09~\text{N}\cdot\text{m}$. With a drive pulley diameter 
+of $71~\text{mm}$, corresponding to a radius of $0.0355~\text{m}$, the required 
+belt tension difference is
+
+\[
+\Delta F = \frac{T_{\text{hub,max}}}{r}
+= \frac{32.09}{0.0355}
+\simeq 904~\text{N}.
+\]
+
+Assuming a conservative ratio between tight-side and slack-side belt tensions,
+
+\[
+\frac{F_{\text{tight}}}{F_{\text{slack}}} = 2,
+\]
+
+the slack-side and tight-side tensions become approximately
+
+\[
+F_{\text{slack}} \simeq 904~\text{N},
+\]
+
+\[
+F_{\text{tight}} \simeq 1808~\text{N}.
+\]
+
+The resulting radial load applied by the belt on the pulley can therefore be estimated as
+
+\[
+F_{\text{belt}} = F_{\text{tight}} + F_{\text{slack}}
+= 1808 + 904
+\simeq 2712~\text{N}.
+\]
+
+Adding a rough estimate of the chain load gives a total lateral load of about
+
+\[
+F_{\text{total}} \simeq 3.2~\text{kN}.
+\]
+
+Since the pillow block is attached with two bolts, each bolt carries approximately
+
+\[
+F_{\text{bolt}} = \frac{F_{\text{total}}}{2}
+= \frac{3212}{2}
+\simeq 1600~\text{N}.
+\]
+
+Using the tensile stress area of an M8 bolt, $A_s \simeq 36.6~\text{mm}^2$, the corresponding 
+simplified shear stress is
+
+\[
+\tau = \frac{F_{\text{bolt}}}{A_s}
+= \frac{1600}{36.6}
+\simeq 44~\text{MPa}.
+\]
+
+This value remains low compared with the strength of standard steel bolts. Therefore, M8 bolts 
+provide a sufficient safety margin while remaining compatible with standard 40 mm aluminium 
+profile hardware. They represent a suitable compromise between strength and compatibility with the modular frame system. In addition, a recess has been added at the mounting between the pillow block and the aluminium profile to prevent twisting under load.  
 ##### Axle
 The large bearings allow us to use an aluminium axle without risking the keyway becoming fragile. The axle features 25 mm bearing seats and a key way to transmit torque to the flywheel and pulley. In order to mount the cassette onto the axle while avoiding complex machining operations a donor freehub body was bonded onto the axle. The axle was of course designed around the specific freehub body available thus the design would need to be modified in accordance with available parts. 
 #### Derailleur Hanger
