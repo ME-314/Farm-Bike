@@ -389,6 +389,18 @@ One improvement mentioned by Timothée was to make the system compatible with fl
 
 During this final testing phase, a third pulley system was also installed on a grain sorter. This machine was different from the agricultural machines analyzed previously, which allowed the adaptability of the Farm-Bike concept to be further evaluated.
 
+Here is the grain sorting machine shown below. This machine already includes a mechanical transmission system, making it suitable for coupling through an external belt drive.
+
+<p align="center">
+  <img src="Resources/GrainSorter.JPG" width="48%" alt="General view of the grain sorting machine">
+  <img src="Resources/GrainSorterZoom.PNG" width="48%" alt="Close-up view of the pulley and gear mechanism">
+</p>
+
+<p align="center">
+  <em>Existing grain sorting machine and close-up view of its pulley and gear transmission mechanism.</em>
+</p>
+
+
 ## Conclusion & Future Improvements
 
 A future improvement identified during the final testing phase would be to make the Farm-Bike compatible with flat belt transmissions. Timothée pointed out that many older agricultural machines, were originally designed to be driven by flat belts. Adding this compatibility would therefore increase the number of machines that could be powered by the Farm-Bike, especially in the context of farms using older or restored equipment.
