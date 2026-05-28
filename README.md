@@ -92,7 +92,7 @@ of the axle, pulley, cassette and flywheel. A precise and rigid support was ther
 avoid bearing misalignment, vibration and premature wear during operation.
 
 The part was machined from 6061 aluminium because this material was availible for reuse to us and it offers a good compromise 
-between stiffness and corrosion resistance. Aluminum was used instead of steel because it was easier produce by machining ([link](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4 to video). The geometry includes two counterbores for 6005-2Z deep groove ball bearings. These bearings were selected because their 25 mm inner diameter matches the axle design, while their larger size provides better robustness than low-profile bicycle bearings. They are also standard industrial components, making them easy to source and replace.
+between stiffness and corrosion resistance. Aluminum was used instead of steel because it was easier produce by machining ([link](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4) to video). The geometry includes two counterbores for 6005-2Z deep groove ball bearings. These bearings were selected because their 25 mm inner diameter matches the axle design, while their larger size provides better robustness than low-profile bicycle bearings. They are also standard industrial components, making them easy to source and replace.
 
 Due to the limited stock material available during manufacturing, the pillow block was produced from 
 two separate pieces that were pinned together. 
