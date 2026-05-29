@@ -14,7 +14,7 @@ The CAD models for this project can be found in the *CadParts* folder and the ma
 The following README contains that may overlap with other documentation contained in the repository but is not intended as a replacement for those documents. 
 
 
-<a href="https://github.com/ME-314/Farm-Bike">ME-314 Farm-Bike</a> © 2026 by <a href="https://github.com/FSzymans">Franciszek Szymanski</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+<a href="https://github.com/ME-314/Farm-Bike">ME-314 Farm-Bike</a> © 2026 by Alex Baptista Coelho, Simon Dalheimer, <a href="https://github.com/FSzymans">Franciszek Szymanski</a> and Jules Taramarcaz is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
