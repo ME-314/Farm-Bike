@@ -98,7 +98,7 @@ Due to the limited stock material available during manufacturing, the pillow blo
 two separate pieces that were pinned together. 
 
 The pillow block is fixed to the aluminium profile frame using two M8 bolts. This bolt size was 
-selected because M8 fasteners are commonly used with 40 mm modular aluminium profiles and 
+selected because M8 fasteners are the most compatible with the 40 mm modular aluminium profiles and 
 provide a robust connection without requiring excessive space on the pillow block. Smaller bolts, such as M5 or M6, would be easier to package but would offer less clamping force and lower 
 resistance to loosening under vibration. Larger bolts, such as M10, would increase the required 
 hole size and reduce the available material around the bearing seats without providing a 
