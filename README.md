@@ -327,7 +327,7 @@ This improvement would require the development of an alternative output pulley s
 
 More generally, this feedback shows that future development should focus not only on the Farm-Bike itself, but also on the compatibility between the bike and a wider range of agricultural machines. A modular output interface, with interchangeable pulleys for V-belts and flat belts, would make the system more versatile and better adapted to real farm conditions.
 
-## List of Components
+## List of Components & Costs
 
 ### STEP Assembly File Component List
 
