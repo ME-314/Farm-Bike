@@ -36,12 +36,12 @@ In addition to these functional requirements, several quantitative design assump
 - Resist an outdoor work environment subject to a central European climate
 - Resist storage in wet conditions
 #### Durability
-- Be built where ever possible out of standard parts to ensure long term parts availability
+- Be built wherever possible out of standard parts to ensure long term parts availability
 - Machined component to only use conventional machining to provide possibility of field repair
 - Use of quality components to ensure a long life cycle  
 - Easy maintenance procedures
 ## Design 
-The design of the machine was driven by the specification outlined above and the will to ensure the project can be replicated or further developed in the future. The design choices are driven by the will to create a machine that has a long service life, quality parts and material were chosen over low-cost alternatives.
+The design of the machine was driven by the specification outlined above and the will to ensure the project can be replicated or further developed in the future. The design choices are driven by the will to create a machine that has a long service life, quality parts and materials were chosen over low-cost alternatives.
 
 For the final coupling between the Farm-Bike and the driven machine, a v-belt transmission was selected. This design choice provides a simple and flexible mechanical interface between the machines. Compared with a rigid shaft coupling, a belt drive is easier to install on existing agricultural machines and is more tolerant to small positioning and alignment errors. It also allows the Farm-Bike to remain mechanically independent from the driven machine, making the system easier to transport, reposition and adapt during usage. From a design point of view, the belt stage also contributes to the transmission ratio: by changing the pulley diameters, the output speed and torque can be adapted to different machines without modifying the bicycle drivetrain itself. Finally, belts and pulleys are standard, inexpensive components, which supports the project goals of repairability, modularity and long-term reproducibility.
 
@@ -49,7 +49,7 @@ For the final coupling between the Farm-Bike and the driven machine, a v-belt tr
 
 The render above outlines the key components of the machine.
 ### [Frame](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/FrameAssembly.pdf)
-The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only off-the-shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm $\times$ 40 mm T-slot aluminium extrusion. These diemntions correspond to a common industrial 
+The frame is made out of Item modular aluminium extrusions, specifically the profile 8 series. This made the construction of the frame simple and required only off-the-shelf parts. The Item profile 8 can be substituted by any equivalent 40 mm $\times$ 40 mm T-slot aluminium extrusion. These dimentions correspond to a common industrial 
 T-slot aluminium profile size. It was specifically chosen as a compromise between stiffness, 
 weight and availability. Smaller profiles, such as 20 mm $\times$ 20 mm or 
 30 mm $\times$ 30 mm, are commonly used for light frames or small mechanical 
@@ -63,31 +63,31 @@ prototype. It is widely used in modular machine frames and workstations, and it 
 with standard T-slot accessories such as brackets, corner connectors, end plates and sliding 
 nuts. In addition, all the aluminum profiles were recovered from the SPOT workshop at EPFL and have been used in previous projects before ours.
 ### Drivetrain
-A transmission based on bicycle components is the optimal of the self solution to our problem. It offers robustness, ease of maintenance and worldwide availability at a low cost. The following components in the system required no modification from their retail configuration: 
+A transmission based on bicycle components is an optimal off-the-shelf solution to our problem. It offers robustness, ease of maintenance and worldwide availability at a low cost. The following components in the system required no modification from their retail configuration: 
 - Cassette 
 - Derailleur & Shifter
 - Handlebars & Stem
 - Crank set & Bottom Bracket
 - Seat post & Saddle 
 
-The machine is designed to be used as a modular power source for various farming implements, many of which are hand cranked and operate are around 60 rpm. Gear ratios of the bicycle drivetrain and the sizes of the pulleys were chose in a way that allows the operator adjust the rotational speed up and down without stopping the machine. 
+The machine is designed to be used as a modular power source for various farming implements, many of which are hand cranked and operate at around 60 rpm. Gear ratios of the bicycle drivetrain and the sizes of the pulleys were chosen in a way that allows the operator to adjust the rotational speed up and down without stopping the machine. 
 
 The subsequent paragraph describe the design of each of the machine specific parts. The parts were designed to conform with bicycle industry standards such that commissioning and maintenance could be carried out by anyone familiar with common bicycles.
 
 #### Gear Ratios Calculation
-With the chosen cassette and chainrings and an assumed cadence of 70 rpm the output of the machine can vary between 47 and 137 rpm. If necessary the size of driven pulley mounted to the farming implement can be adjusted to suit. To simplify adapting other machinery and further development the ratio calculation spread sheet is available in the documentation.
+With the chosen cassette and chainrings and an assumed cadence of 70 rpm the output of the machine can vary between 47 and 137 rpm. If necessary the size of driven pulley mounted to the farming implement can be adjusted to suit. To simplify adapting other machinery and further development the ratio calculation spreadsheet is available in the documentation.
 
 ![Ratio Table](https://github.com/ME-314/Farm-Bike/blob/main/Resources/GearCalculations.png "Ratio Table")
 
 For the currently selected driven pulley diameter of 112 mm, this range covers the operating speed of the polenta mill and corn sheller used during testing. In the spreadsheet you can also see a centre-to-centre distance of 1000 mm, which gives an estimated belt length of approximately 2288 mm for the 71 mm and 112 mm pulley pair.
 
 #### Bottom Bracket Shell
-The bottom bracket shell attaches the standard BSA bicycle bottom bracket to the frame. The part is a weldment of a round bottom bracket shell recovered from a donor frame and a 40 mm $\times$ 30 mm rectangular steel tube (since this part was recovered from an existing bike frame, it's dimensions have not been chosen by us and were imposed by the donor frame, so standard bike components and dimensions). The part requires far less material resources than an equivalent machined from a billet and does not require specialty tooling to cut the BSA thread. By clicking this [link](https://github.com/ME-314/Farm-Bike/blob/main/Resources/BBS_removal.MOV), you can see how the part was recovered, separated from the frame and cleaned for our requirements (frame on the left of the video and BBS clamed on the table).
+The bottom bracket shell attaches the standard BSA bicycle bottom bracket to the frame. The part is a weldment of a round bottom bracket shell recovered from a donor frame and a 40 mm $\times$ 30 mm rectangular steel tube (since this part was recovered from an existing bike frame, its dimensions have not been chosen by us and were imposed by the donor frame, so standard bike components and dimensions). The part requires far less material resources than an equivalent machined from a billet and does not require specialty tooling to cut the BSA thread. By clicking this [link](https://github.com/ME-314/Farm-Bike/blob/main/Resources/BBS_removal.MOV), you can see how the part was recovered, separated from the frame and cleaned for our requirements (frame on the left of the video and BBS clamped on the table).
 #### Hub
-The hub forms a central part of the transmission of the machine, it the mounts the cassette and the pulley thus transmitted all of the power generated. A flywheel is also mounted on the axle to smooth out the power delivery.  
+The hub forms a central part of the transmission of the machine, it mounts the cassette and the pulley thus transmits all of the power generated. A flywheel is also mounted on the axle to smooth out the power delivery.  
 ##### Pillow Block
 
-This part houses the main bearings and attaches to the frame. It is a crucial parts that maintains the alignment between that two bearing and ensures their long life and smooth operation, for this reason it is machined out of a 6061 Aluminium billet. Due to unavailability of appropriate stock the pillow block has been split into two pieces and pinned together. It features clearance holes for two M8 mounting bolts, a central bore for the axle to pass through and two counterbores for the 6005-2Z bearings. These deep groove ball bearings have been selected to ensure a long life span as well being easy to source. Low profile ball bearing often found in bicycles have specifically been discarded as their lower profile makes them more prone to premature failure. A recess has been added at the mounting between the pillow block and the aluminium profile to prevent twisting during usage.
+This part houses the main bearings and attaches to the frame. It is a crucial part that maintains the alignment between that two bearings and ensures their long life and smooth operation, for this reason it is machined out of a 6061 Aluminium billet. Due to unavailability of appropriate stock the pillow block has been split into two pieces and pinned together. It features clearance holes for two M8 mounting bolts, a central bore for the axle to pass through and two counterbores for the 6005-2Z bearings. These deep groove ball bearings have been selected to ensure a long life span as well as being easy to source. Low-profile ball bearing often found in bicycles have specifically been discarded as their lower profile makes them more prone to premature failure. A recess has been added at the mounting between the pillow block and the aluminium profile to prevent twisting during usage.
 
 ##### Axle
 The large bearings allow us to use an aluminium axle without risking the keyway becoming fragile. The axle features 25 mm bearing seats and a key way to transmit torque to the flywheel and pulley. In order to mount the cassette onto the axle while avoiding complex machining operations a donor freehub body was bonded onto the axle. The axle was of course designed around the specific freehub body available thus the design would need to be modified in accordance with available parts. 
@@ -99,7 +99,7 @@ This section outlines the manufacturing processes of each of the parts and provi
 - TIG Welding
 - Turning 
 
-This is the only weldment on the machine, consisting of two parts with thin sections. The donor frame was chose for its steel construction and BSA threaded bottom bracket. The shell was cut out and turned down to a constant diameter. During the turning operations a close fitting aluminium plug was used on the inside of the threads to provide tailstock support. The hole for the shell in the rectangular tubing was roughed out with a hole saw on a mill and fitted by hand with a file. The two parts were subsequently TIG welded and the thread was chased. TIG welding was used because of the thin material and in order to preserve as much of the BSA thread inside the shell.  
+This is the only weldment on the machine, consisting of two parts with thin sections. The donor frame was chosen for its steel construction and BSA threaded bottom bracket. The shell was cut out and turned down to a constant diameter. During the turning operations a close fitting aluminium plug was used on the inside of the threads to provide tailstock support. The hole for the shell in the rectangular tubing was roughed out with a hole saw on a mill and fitted by hand with a file. The two parts were subsequently TIG welded and the thread was chased. TIG welding was used because of the thin material and in order to preserve as much of the BSA thread inside the shell.  
 
 It should be noted that a farmer is not necessarily expected to have access to TIG welding equipment. A future version could therefore replace this welded part with a clamped or bolted bottom bracket support, removing the need for welding and making the design easier to reproduce with basic tools.
 <table>
@@ -135,7 +135,7 @@ The operations were carried out in the following order:
 - Drilling of two M8 clearance holes
 - Boring half of the through bore in a lathe with centre drill hole as reference
 - Boring of bearing seat
-- Part flipped an boring operations repeated
+- Part flipped and boring operations repeated
 - Deburring and chamfering 
 
 <table>
