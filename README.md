@@ -181,7 +181,7 @@ Precaution taken during assembly of the hub:
 - Sheet Metal Bending
 - If available fibre laser cutting or water jet
 
-Just like the fly wheel the derailleur mount was cut with the use of a fibre laser. Due to its non trivial geometry the sheet metal part was bent in a bench vice with the help of parallel jaw pliers. The existing derailleur hanger was hand fitted during the finishing process. As most of the parts geometries are non mating surfaces the part could be replicated with hand tools. The geometry cam be modified to suit the manufacturing methods available.
+Just like the fly wheel the derailleur mount was cut with the use of a fibre laser. Due to its non-trivial geometry the sheet metal part was bent in a bench vice with the help of parallel jaw pliers. The existing derailleur hanger was hand fitted during the finishing process. As most of the part geometries are non mating surfaces the part could be replicated with hand tools. The geometry can be modified to suit the manufacturing methods available.
 <table>
   <tr>
     <td><img src="https://github.com/ME-314/Farm-Bike/blob/main/Resources/DerailleurMount0.jpg" width="350"></td>
@@ -194,7 +194,7 @@ Just like the fly wheel the derailleur mount was cut with the use of a fibre las
 </table> 
 
 ## Procurement Guide 
-Normalized industrial parts for this project can be commonly bought new from well established suppliers. The parts for the prototype were sourced from [Norelem](https://www.norelem.ch/), but equivalent parts can be source from: 
+Normalized industrial parts for this project can be commonly bought new from well established suppliers. The parts for the prototype were sourced from [Norelem](https://www.norelem.ch/), but equivalent parts can be sourced from: 
 - [Misumi](https://fr.misumi-ec.com/)
 - [RS Components](https://us.rs-online.com/)
 - [McMaster-Carr](https://www.mcmaster.com/)
@@ -233,7 +233,7 @@ Before coupling the Farm-Bike to an external machine, the user must ensure that 
 To stop the machine, the user should simply reduce pedalling effort progressively and allow the drivetrain and flywheel to slow down naturally. The user should not attempt to stop the flywheel, pulley or chain by hand. After use, the machine should be inspected for loose fasteners, abnormal noise, chain misalignment or signs of wear. If the machine has been used outdoors or stored in humid conditions, exposed steel parts should be dried and checked for corrosion.
 
 ### Maintenance Guide 
-Time intervals for preventative maintenance are a guidelines, maintenance intervals should be adjusted in accordance with conditions of use and storage. 
+Time intervals for preventative maintenance intervals are guidelines, maintenance intervals should be adjusted in accordance with conditions of use and storage. 
 - each use inspect fasteners and drivetrain
 - 7-10h clean and lubricate chain
 - 30-50h degrease and lubricate chain
