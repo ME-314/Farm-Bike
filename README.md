@@ -326,3 +326,72 @@ A future improvement identified during the final testing phase would be to make 
 This improvement would require the development of an alternative output pulley system designed specifically for flat belts. The pulley geometry, belt tensioning method and alignment system would need to be adapted, since flat belts are more sensitive to lateral misalignment than V-belts. However, this solution would also improve the repairability and local reproducibility of the system, as flat belts can be manufactured or repaired more easily from simple flexible materials, such as leather or rubber strips cut to the required width and length.
 
 More generally, this feedback shows that future development should focus not only on the Farm-Bike itself, but also on the compatibility between the bike and a wider range of agricultural machines. A modular output interface, with interchangeable pulleys for V-belts and flat belts, would make the system more versatile and better adapted to real farm conditions.
+
+## List of Components
+
+### STEP Assembly File Component List
+
+The following table lists the main components from the `FarmBike.stp` assembly.
+
+| Quantity | Component name |
+|---:|---|
+| 10 | 45Joint |
+| 6 | FrontSupport |
+| 2 | TubeClampMount |
+| 2 | 6005-2Z bearing |
+| 2 | PillowBlock |
+| 2 | 29014-30 |
+| 2 | FlyWheelMass |
+| 2 | FlyWheelSpacer |
+| 1 | HeadTube |
+| 1 | MainFrame |
+| 1 | 23200-0382522 |
+| 1 | 22070-12711 |
+| 1 | FreeHubBody |
+| 1 | FrontLeg |
+| 1 | DerailleurBracket |
+| 1 | 27616-08095 |
+| 1 | StemMount |
+| 1 | BackSupport |
+| 1 | BottomBracketMount |
+| 1 | BottomBracketShell |
+| 1 | FilletWeld_1 |
+| 1 | DerailleurHanger.psm |
+| 1 | SeatTube |
+| 1 | FlyWheel |
+| 1 | DriveAxle |
+| 1 | DummyBearing |
+
+
+### Aluminium Profile Cut List
+
+The main frame is made from 40 × 40 mm aluminium profile. The total required profile length is approximately **4.96 m**.
+
+| Quantity | Component | Profile type | Length per part | Total length |
+|---:|---|---|---:|---:|
+| 1 | HeadTube | 40 × 40 mm aluminium profile | 1000 mm | 1000 mm |
+| 1 | MainFrame | 40 × 40 mm aluminium profile | 1160 mm | 1160 mm |
+| 6 | FrontSupport | 40 × 40 mm aluminium profile | 250 mm | 1500 mm |
+| 1 | FrontLeg | 40 × 40 mm aluminium profile | 580 mm | 580 mm |
+| 1 | BackSupport | 40 × 40 mm aluminium profile | 220 mm | 220 mm |
+| 1 | SeatTube | 40 × 40 mm aluminium profile | 500 mm | 500 mm |
+|  | **Total** |  |  | **4960 mm** |
+
+### Components Purchased from Point Vélo
+
+The following bicycle components were purchased from Point Vélo and used for the Farm-Bike drivetrain and rider interface.
+
+| Quantity | Component |
+|---:|---|
+| 1 | 10-speed cassette |
+| 1 | Pair of pedals |
+| 1 | 3-speed chainring / crankset |
+| 1 | Rear derailleur |
+| 1 | Saddle |
+| 1 | Seatpost |
+| 1 | Stem |
+| 1 | Handlebars |
+| 1 | Bottom bracket shell |
+| 1 | 10-speed compatible chain |
+| 1 | Rear derailleur shifter |
+| 1 | Set of shifter cables |
