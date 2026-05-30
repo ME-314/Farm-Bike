@@ -151,7 +151,7 @@ The operations were carried out in the following order:
 Following machining, deburring and finishing was carried out and the bearings were fitted
 
 
-### [Fly Wheel](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/FlyWheelAssy Drawing.pdf)
+### [Fly Wheel](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/FlyWheelAssyDrawing.pdf)
 - Turning 
 - If available fibre laser cutting or water jet
 
