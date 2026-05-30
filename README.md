@@ -331,7 +331,7 @@ More generally, this feedback shows that future development should focus not onl
 
 ### STEP Assembly File Component List
 
-The following table lists the main components from the `FarmBike.stp` assembly.
+The following table lists the main components from the `FarmBike.stp` assembly with the respective names used.
 
 | Quantity | Component name |
 |---:|---|
