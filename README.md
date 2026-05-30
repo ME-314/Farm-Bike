@@ -176,7 +176,7 @@ Precaution taken during assembly of the hub:
   </tr>
 </table> 
 
-### Derailleur Mount
+### [Derailleur Mount](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/DerailleurBracketDrawing.pdf) 
 - Metal Cutting
 - Sheet Metal Bending
 - If available fibre laser cutting or water jet
