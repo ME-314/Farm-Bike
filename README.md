@@ -395,3 +395,11 @@ The following bicycle components were purchased from Point Vélo and used for th
 | 1 | 10-speed compatible chain |
 | 1 | Rear derailleur shifter |
 | 1 | Set of shifter cables |
+
+
+### Farm-Bike Budget Sheet — Confirmed Purchases
+
+<p align="center">
+  <img src="Resources/Farm-Bike Budget Sheet.JPG" alt="Confirmed purchases included in the Farm-Bike budget sheet, summarising the cost of the components bought.
+" width="800">
+</p>
