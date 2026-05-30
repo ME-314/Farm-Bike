@@ -86,98 +86,16 @@ The bottom bracket shell attaches the standard BSA bicycle bottom bracket to the
 #### Hub
 The hub forms a central part of the transmission of the machine, it the mounts the cassette and the pulley thus transmitted all of the power generated. A flywheel is also mounted on the axle to smooth out the power delivery.  
 ##### Pillow Block
-The pillow block houses the two main bearings supporting the drive axle and attaches the hub 
-assembly to the aluminium profile frame. This part is critical because it defines the alignment 
-of the axle, pulley, cassette and flywheel. A precise and rigid support was therefore required to 
-avoid bearing misalignment, vibration and premature wear during operation.
 
-The part was machined from 6061 aluminium because this material was availible for reuse to us and it offers a good compromise 
-between stiffness and corrosion resistance. Aluminum was used instead of steel because it was easier produce by machining ([link](https://github.com/ME-314/Farm-Bike/blob/main/Resources/PillowBlockBoring.mp4) to video). The geometry includes two counterbores for 6005-2Z deep groove ball bearings. These bearings were selected because their 25 mm inner diameter matches the axle design, while their larger size provides better robustness than low-profile bicycle bearings. They are also standard industrial components, making them easy to source and replace.
+This part houses the main bearings and attaches to the frame. It is a crucial parts that maintains the alignment between that two bearing and ensures their long life and smooth operation, for this reason it is machined out of a 6061 Aluminium billet. Due to unavailability of appropriate stock the pillow block has been split into two pieces and pinned together. It features clearance holes for two M8 mounting bolts, a central bore for the axle to pass through and two counterbores for the 6005-2Z bearings. These deep groove ball bearings have been selected to ensure a long life span as well being easy to source. Low profile ball bearing often found in bicycles have specifically been discarded as their lower profile makes them more prone to premature failure. A recess has been added at the mounting between the pillow block and the aluminium profile to prevent twisting during usage.
 
-Due to the limited stock material available during manufacturing, the pillow block was produced from 
-two separate pieces that were pinned together. 
-
-The pillow block is fixed to the aluminium profile frame using two M8 bolts. This bolt size was 
-selected because M8 fasteners are the most compatible with the 40 mm modular aluminium profiles and 
-provide a robust connection without requiring excessive space on the pillow block. Smaller bolts, such as M5 or M6, would be easier to package but would offer less clamping force and lower 
-resistance to loosening under vibration. Larger bolts, such as M10, would increase the required 
-hole size and reduce the available material around the bearing seats without providing a 
-significant advantage for the expected loads.
-
-This choice was checked using a simplified load estimate based on the maximum hub torque. 
-In the low-speed setting, the hub torque is approximately 
-$T_{\text{hub,max}} = 32.09~\text{N}\cdot\text{m}$. With a drive pulley diameter 
-of $71~\text{mm}$, corresponding to a radius of $0.0355~\text{m}$, the required 
-belt tension difference is
-
-```math
-\Delta F = \frac{T_{\text{hub,max}}}{r}
-= \frac{32.09}{0.0355}
-\simeq 904~\text{N}
-```
-
-Assuming a conservative ratio between the tight-side and slack-side belt tensions:
-
-```math
-\frac{F_{\text{tight}}}{F_{\text{slack}}} = 2
-```
-
-the slack-side and tight-side tensions are approximately:
-
-```math
-F_{\text{slack}} \simeq 904~\text{N}
-```
-
-```math
-F_{\text{tight}} \simeq 1808~\text{N}
-```
-
-The resulting radial load applied by the belt on the pulley can therefore be estimated as:
-
-```math
-F_{\text{belt}} = F_{\text{tight}} + F_{\text{slack}}
-= 1808 + 904
-\simeq 2712~\text{N}
-```
-
-Adding a rough estimate of the chain load gives a total lateral load of about:
-
-```math
-F_{\text{total}} \simeq 3.2~\text{kN}
-```
-
-Since the pillow block is attached with two bolts, each bolt carries approximately:
-
-```math
-F_{\text{bolt}} = \frac{F_{\text{total}}}{2}
-= \frac{3212}{2}
-\simeq 1600~\text{N}
-```
-
-Using the tensile stress area of an M8 bolt, with:
-
-```math
-A_s \simeq 36.6~\text{mm}^2
-```
-
-the corresponding simplified shear stress is:
-
-```math
-\tau = \frac{F_{\text{bolt}}}{A_s}
-= \frac{1600}{36.6}
-\simeq 44~\text{MPa}
-```
-
-This value remains low compared with the strength of standard steel bolts. Therefore, M8 bolts 
-provide a sufficient safety margin while remaining compatible with standard 40 mm aluminium 
-profile hardware. They represent a suitable compromise between strength and compatibility with the modular frame system. In addition, a recess has been added at the mounting between the pillow block and the aluminium profile to prevent twisting under load.  
 ##### Axle
 The large bearings allow us to use an aluminium axle without risking the keyway becoming fragile. The axle features 25 mm bearing seats and a key way to transmit torque to the flywheel and pulley. In order to mount the cassette onto the axle while avoiding complex machining operations a donor freehub body was bonded onto the axle. The axle was of course designed around the specific freehub body available thus the design would need to be modified in accordance with available parts. 
 #### Derailleur Hanger
 To emulate the derailleur mounting of a conventional bicycle without having to cut a fine pitch thread a derailleur hanger from a donor frame was utilized. In order to correctly position it with respect to the axle and cassette a mount was designed out of 3mm 5005 aluminium sheet. The mount exploits the advantages of bent sheet metal to achieve a robust yet lightweight solution. 
 ## [Manufacturing](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/FarmBikeAssembly.pdf) 
 This section outlines the manufacturing processes of each of the parts and provides photos of the components. It assumes the reader is comfortable with conventional machining processes and general fabrication and thus omits the details of most trivial operations. Some parts in the assembly are overlooked in this section as their manufacturing features no operations of interest.
-### [Bottom Bracket Shell](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/BottomBracketMount.pdf) 
+### [Bottom Bracket Shell](https://github.com/ME-314/Farm-Bike/blob/main/Drafts/BBMount.pdf) 
 - TIG Welding
 - Turning 
 
