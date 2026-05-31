@@ -20,7 +20,7 @@ The following README contains information that may overlap with other documentat
 
 ## Project Video
 
-A short video presentation of the Farm-Bike project has been published on YouTube. It shows our work atmosphere, talks about the design choices and the manufacturing process, and shows a little of the testing preformed at the Bassenges farm.
+A short video presentation of the Farm-Bike project has been published on YouTube. It shows our work atmosphere, talks about the design choices and the manufacturing process of the bike, and shows a little bit of the testing preformed at the Bassenges farm.
 
 The video can be watched here: [Farm-Bike Project Video](https://youtu.be/_lzx3uVPyf8)
 
