@@ -198,18 +198,6 @@ Just like the fly wheel the derailleur mount was cut with the use of a fibre las
   </tr>
 </table> 
 
-## Procurement Guide 
-Normalized industrial parts for this project can be commonly bought new from well established suppliers. The parts for the prototype were sourced from [Norelem](https://www.norelem.ch/), but equivalent parts can be sourced from: 
-- [Misumi](https://fr.misumi-ec.com/)
-- [RS Components](https://us.rs-online.com/)
-- [McMaster-Carr](https://www.mcmaster.com/)
-- [JLCMC](https://jlcmc.com/)
-In this project the part numbers specified on assembly drawings and in the cad model correspond to Norelem part numbers.  
-To reduce the ecological impact of the prototype, second hand or recovered components were utilized in areas that would not impact the longevity, safety or operation of the machine.
-Item aluminium profiles and relevant hardware were recovered from decommissioned machinery. Equivalents can be sourced from the suppliers above or Item24 directly. Wherever possible material off-cuts or scrapped parts we used as stock material.   
-Bicycle components for the prototype were second hand and sourced from *Point Vélo* located on the EPFL campus. 
-## User Guide 
-
 ### Prototype Overview
 
 After the design and manufacturing phases, the **Farm-Bike prototype** was fully assembled.
@@ -225,6 +213,19 @@ The image below shows the assembled Farm-Bike prototype in its final pre-testing
 </p>
 
 This final assembly represents the functional outcome of the project and serves as the basis for future improvements, such as ergonomic optimisation, stronger machine coupling, and further field testing at the farm.
+
+## Procurement Guide 
+Normalized industrial parts for this project can be commonly bought new from well established suppliers. The parts for the prototype were sourced from [Norelem](https://www.norelem.ch/), but equivalent parts can be sourced from: 
+- [Misumi](https://fr.misumi-ec.com/)
+- [RS Components](https://us.rs-online.com/)
+- [McMaster-Carr](https://www.mcmaster.com/)
+- [JLCMC](https://jlcmc.com/)
+In this project the part numbers specified on assembly drawings and in the cad model correspond to Norelem part numbers.  
+To reduce the ecological impact of the prototype, second hand or recovered components were utilized in areas that would not impact the longevity, safety or operation of the machine.
+Item aluminium profiles and relevant hardware were recovered from decommissioned machinery. Equivalents can be sourced from the suppliers above or Item24 directly. Wherever possible material off-cuts or scrapped parts we used as stock material.   
+Bicycle components for the prototype were second hand and sourced from *Point Vélo* located on the EPFL campus. 
+
+## User Guide 
 
 ### Use Instructions 
 Before operating the machine, ensure that it is placed on a stable and level surface. The frame should not rock or move under load, and all fasteners securing the aluminium profiles, pillow block, bottom bracket shell, seat post and handlebar assembly should be checked for tightness. The pulley, flywheel and cassette should be visually inspected to ensure that they are correctly seated and that no foreign object is interfering with the drivetrain.
@@ -304,7 +305,7 @@ The image below shows the Farm-Bike connected to the corn sheller during the tes
   <em>Farm-Bike prototype connected to the corn sheller during testing.</em>
 </p>
 
-## Last Testing Session
+### Last Testing Session
 
 During the final week of testing, an interview was conducted with Timothée as part of the video presentation of the project. The discussion focused on his feedback regarding the Farm-Bike prototype, his impression of the proposed solution for driving the machines, and the possible improvements he suggested for future iterations.
 
