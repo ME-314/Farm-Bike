@@ -18,6 +18,11 @@ The following README contains information that may overlap with other documentat
 
 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
+## Project Video
+
+A short video presentation of the Farm-Bike project has been published on YouTube. It shows our work atmosphere, talks about the design choices and the manufacturing process, and shows a little of the testing preformed at the Bassenges farm.
+
+The video can be watched here: [Farm-Bike Project Video](https://youtu.be/_lzx3uVPyf8)
 
 ## Specification 
 #### Functionality 
